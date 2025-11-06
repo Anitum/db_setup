@@ -1,0 +1,306 @@
+{
+    "timestamp": "20250923_175201",
+    "image_index": 9,
+    "directory_name": "blr-boommachandra-2_channel1702",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "blr-boommachandra-2_channel1702_summary.jpg",
+        "full_path": "/home/mayank/Downloads/summary_frames_a2b/blr-boommachandra-2_channel1702_summary.jpg",
+        "outlet_name": "blr-boommachandra-2",
+        "channel_number": "1702",
+        "display_name": "blr-boommachandra-2 (Channel 1702)",
+        "unique_key": "blr-boommachandra-2_channel1702"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_34",
+            "filename": "polygon_34.txt",
+            "full_path": "/home/anitum-jk/Downloads/trail/Table_ROI_5_outlets/blr-boommachandra-2_channel1702/polygon_34.txt",
+            "original_coordinates": [
+                [
+                    244,
+                    65
+                ],
+                [
+                    308,
+                    61
+                ],
+                [
+                    334,
+                    66
+                ],
+                [
+                    321,
+                    163
+                ],
+                [
+                    212,
+                    166
+                ],
+                [
+                    204,
+                    81
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.3812,
+                    0.1693
+                ],
+                [
+                    0.4813,
+                    0.1589
+                ],
+                [
+                    0.5219,
+                    0.1719
+                ],
+                [
+                    0.5016,
+                    0.4245
+                ],
+                [
+                    0.3312,
+                    0.4323
+                ],
+                [
+                    0.3187,
+                    0.2109
+                ]
+            ],
+            "point_count": 6
+        },
+        {
+            "polygon_id": 2,
+            "name": "polygon_38",
+            "filename": "polygon_38.txt",
+            "full_path": "/home/anitum-jk/Downloads/trail/Table_ROI_5_outlets/blr-boommachandra-2_channel1702/polygon_38.txt",
+            "original_coordinates": [
+                [
+                    8,
+                    131
+                ],
+                [
+                    85,
+                    130
+                ],
+                [
+                    110,
+                    225
+                ],
+                [
+                    55,
+                    296
+                ],
+                [
+                    12,
+                    188
+                ],
+                [
+                    4,
+                    154
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.0125,
+                    0.3411
+                ],
+                [
+                    0.1328,
+                    0.3385
+                ],
+                [
+                    0.1719,
+                    0.5859
+                ],
+                [
+                    0.0859,
+                    0.7708
+                ],
+                [
+                    0.0187,
+                    0.4896
+                ],
+                [
+                    0.0063,
+                    0.401
+                ]
+            ],
+            "point_count": 6
+        },
+        {
+            "polygon_id": 3,
+            "name": "polygon_37",
+            "filename": "polygon_37.txt",
+            "full_path": "/home/anitum-jk/Downloads/trail/Table_ROI_5_outlets/blr-boommachandra-2_channel1702/polygon_37.txt",
+            "original_coordinates": [
+                [
+                    37,
+                    98
+                ],
+                [
+                    131,
+                    85
+                ],
+                [
+                    144,
+                    159
+                ],
+                [
+                    128,
+                    193
+                ],
+                [
+                    81,
+                    128
+                ],
+                [
+                    8,
+                    128
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.0578,
+                    0.2552
+                ],
+                [
+                    0.2047,
+                    0.2214
+                ],
+                [
+                    0.225,
+                    0.4141
+                ],
+                [
+                    0.2,
+                    0.5026
+                ],
+                [
+                    0.1266,
+                    0.3333
+                ],
+                [
+                    0.0125,
+                    0.3333
+                ]
+            ],
+            "point_count": 6
+        },
+        {
+            "polygon_id": 4,
+            "name": "polygon_36",
+            "filename": "polygon_36.txt",
+            "full_path": "/home/anitum-jk/Downloads/trail/Table_ROI_5_outlets/blr-boommachandra-2_channel1702/polygon_36.txt",
+            "original_coordinates": [
+                [
+                    82,
+                    66
+                ],
+                [
+                    171,
+                    60
+                ],
+                [
+                    180,
+                    112
+                ],
+                [
+                    161,
+                    139
+                ],
+                [
+                    131,
+                    89
+                ],
+                [
+                    52,
+                    93
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.1281,
+                    0.1719
+                ],
+                [
+                    0.2672,
+                    0.1562
+                ],
+                [
+                    0.2812,
+                    0.2917
+                ],
+                [
+                    0.2516,
+                    0.362
+                ],
+                [
+                    0.2047,
+                    0.2318
+                ],
+                [
+                    0.0813,
+                    0.2422
+                ]
+            ],
+            "point_count": 6
+        },
+        {
+            "polygon_id": 5,
+            "name": "polygon_35",
+            "filename": "polygon_35.txt",
+            "full_path": "/home/anitum-jk/Downloads/trail/Table_ROI_5_outlets/blr-boommachandra-2_channel1702/polygon_35.txt",
+            "original_coordinates": [
+                [
+                    252,
+                    38
+                ],
+                [
+                    325,
+                    50
+                ],
+                [
+                    304,
+                    59
+                ],
+                [
+                    253,
+                    60
+                ],
+                [
+                    231,
+                    49
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.3937,
+                    0.099
+                ],
+                [
+                    0.5078,
+                    0.1302
+                ],
+                [
+                    0.475,
+                    0.1536
+                ],
+                [
+                    0.3953,
+                    0.1562
+                ],
+                [
+                    0.3609,
+                    0.1276
+                ]
+            ],
+            "point_count": 5
+        }
+    ]
+}

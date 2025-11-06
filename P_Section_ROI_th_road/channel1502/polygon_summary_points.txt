@@ -1,0 +1,32 @@
+Directory: th-road_channel1502 (Channel #14)
+Timestamp: 20250927_231803
+Image Dimensions: 640x384
+Source Image: overlaid_th-road_channel1502_1757682493.3174493.jpg
+Outlet: th-road
+Channel: 1502
+Image Path: /home/mayank/Downloads/Zayd/th-road/overlaid_th-road_channel1502_1757682493.3174493.jpg
+Unique Key: th-road_channel1502
+============================================================
+
+Total Polygons: 1
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 6
+Original Coordinates:
+  Point 1: (168, 80)
+  Point 2: (311, 16)
+  Point 3: (538, 104)
+  Point 4: (541, 382)
+  Point 5: (3, 375)
+  Point 6: (3, 171)
+Normalized Coordinates:
+  Point 1: (0.2625, 0.2083)
+  Point 2: (0.4859, 0.0417)
+  Point 3: (0.8406, 0.2708)
+  Point 4: (0.8453, 0.9948)
+  Point 5: (0.0047, 0.9766)
+  Point 6: (0.0047, 0.4453)
+
+----------------------------------------
+

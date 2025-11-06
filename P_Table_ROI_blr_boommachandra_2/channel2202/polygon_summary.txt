@@ -1,0 +1,130 @@
+Directory: blr-boommachandra-2_channel2202 (Image #15)
+Timestamp: 20250923_175910
+Image Dimensions: 640x384
+Source Image: blr-boommachandra-2_channel2202_summary.jpg
+Outlet: blr-boommachandra-2
+Channel: 2202
+Image Path: /home/mayank/Downloads/summary_frames_a2b/blr-boommachandra-2_channel2202_summary.jpg
+Unique Key: blr-boommachandra-2_channel2202
+============================================================
+
+Total Polygons: 7
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 5
+Original Coordinates:
+  Point 1: (299, 40)
+  Point 2: (439, 32)
+  Point 3: (460, 73)
+  Point 4: (454, 99)
+  Point 5: (306, 100)
+Normalized Coordinates:
+  Point 1: (0.4672, 0.1042)
+  Point 2: (0.6859, 0.0833)
+  Point 3: (0.7188, 0.1901)
+  Point 4: (0.7094, 0.2578)
+  Point 5: (0.4781, 0.2604)
+
+----------------------------------------
+
+Polygon: polygon_2
+File: polygon_2.txt
+Points: 4
+Original Coordinates:
+  Point 1: (314, 87)
+  Point 2: (467, 85)
+  Point 3: (516, 115)
+  Point 4: (314, 123)
+Normalized Coordinates:
+  Point 1: (0.4906, 0.2266)
+  Point 2: (0.7297, 0.2214)
+  Point 3: (0.8063, 0.2995)
+  Point 4: (0.4906, 0.3203)
+
+----------------------------------------
+
+Polygon: polygon_3
+File: polygon_3.txt
+Points: 4
+Original Coordinates:
+  Point 1: (318, 141)
+  Point 2: (521, 132)
+  Point 3: (636, 259)
+  Point 4: (318, 317)
+Normalized Coordinates:
+  Point 1: (0.4969, 0.3672)
+  Point 2: (0.8141, 0.3438)
+  Point 3: (0.9938, 0.6745)
+  Point 4: (0.4969, 0.8255)
+
+----------------------------------------
+
+Polygon: polygon_4
+File: polygon_4.txt
+Points: 4
+Original Coordinates:
+  Point 1: (308, 305)
+  Point 2: (635, 277)
+  Point 3: (638, 381)
+  Point 4: (318, 381)
+Normalized Coordinates:
+  Point 1: (0.4813, 0.7943)
+  Point 2: (0.9922, 0.7214)
+  Point 3: (0.9969, 0.9922)
+  Point 4: (0.4969, 0.9922)
+
+----------------------------------------
+
+Polygon: polygon_5
+File: polygon_5.txt
+Points: 5
+Original Coordinates:
+  Point 1: (2, 181)
+  Point 2: (117, 158)
+  Point 3: (143, 270)
+  Point 4: (89, 359)
+  Point 5: (1, 354)
+Normalized Coordinates:
+  Point 1: (0.0031, 0.4714)
+  Point 2: (0.1828, 0.4115)
+  Point 3: (0.2234, 0.7031)
+  Point 4: (0.1391, 0.9349)
+  Point 5: (0.0016, 0.9219)
+
+----------------------------------------
+
+Polygon: polygon_6
+File: polygon_6.txt
+Points: 4
+Original Coordinates:
+  Point 1: (1, 103)
+  Point 2: (73, 96)
+  Point 3: (73, 147)
+  Point 4: (10, 180)
+Normalized Coordinates:
+  Point 1: (0.0016, 0.2682)
+  Point 2: (0.1141, 0.25)
+  Point 3: (0.1141, 0.3828)
+  Point 4: (0.0156, 0.4688)
+
+----------------------------------------
+
+Polygon: polygon_7
+File: polygon_7.txt
+Points: 5
+Original Coordinates:
+  Point 1: (134, 37)
+  Point 2: (189, 31)
+  Point 3: (192, 87)
+  Point 4: (176, 110)
+  Point 5: (126, 55)
+Normalized Coordinates:
+  Point 1: (0.2094, 0.0964)
+  Point 2: (0.2953, 0.0807)
+  Point 3: (0.3, 0.2266)
+  Point 4: (0.275, 0.2865)
+  Point 5: (0.1969, 0.1432)
+
+----------------------------------------
+

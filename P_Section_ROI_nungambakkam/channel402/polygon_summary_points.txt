@@ -1,0 +1,32 @@
+Directory: nungambakkam_channel402 (Channel #4)
+Timestamp: 20250927_182118
+Image Dimensions: 640x384
+Source Image: overlaid_nungambakkam_channel402_1757682013.8777325.jpg
+Outlet: nungambakkam
+Channel: 402
+Image Path: /home/mayank/Downloads/Zayd/nun/overlaid_nungambakkam_channel402_1757682013.8777325.jpg
+Unique Key: nungambakkam_channel402
+============================================================
+
+Total Polygons: 1
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 6
+Original Coordinates:
+  Point 1: (478, 152)
+  Point 2: (406, 20)
+  Point 3: (2, 85)
+  Point 4: (2, 374)
+  Point 5: (322, 376)
+  Point 6: (343, 194)
+Normalized Coordinates:
+  Point 1: (0.7469, 0.3958)
+  Point 2: (0.6344, 0.0521)
+  Point 3: (0.0031, 0.2214)
+  Point 4: (0.0031, 0.974)
+  Point 5: (0.5031, 0.9792)
+  Point 6: (0.5359, 0.5052)
+
+----------------------------------------
+

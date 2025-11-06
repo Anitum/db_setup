@@ -1,0 +1,70 @@
+{
+    "timestamp": "20250927_230429",
+    "channel_index": 20,
+    "directory_name": "th-road_channel2102",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "overlaid_th-road_channel2102_1757682161.75015.jpg",
+        "full_path": "/home/mayank/Downloads/Zayd/th-road/overlaid_th-road_channel2102_1757682161.75015.jpg",
+        "outlet_name": "th-road",
+        "channel_number": "2102",
+        "display_name": "th-road (Channel 2102)",
+        "unique_key": "th-road_channel2102"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "th-road_channel2102/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    422,
+                    94
+                ],
+                [
+                    539,
+                    367
+                ],
+                [
+                    637,
+                    372
+                ],
+                [
+                    633,
+                    109
+                ],
+                [
+                    491,
+                    48
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.6594,
+                    0.2448
+                ],
+                [
+                    0.8422,
+                    0.9557
+                ],
+                [
+                    0.9953,
+                    0.9688
+                ],
+                [
+                    0.9891,
+                    0.2839
+                ],
+                [
+                    0.7672,
+                    0.125
+                ]
+            ],
+            "point_count": 5
+        }
+    ]
+}

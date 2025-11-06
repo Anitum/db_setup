@@ -1,0 +1,604 @@
+Starting Python scripts for outlet 'blr-boommachandra'... Logging to setup_blr-boommachandra.log
+Running one_shot_to_create_all_geom_tables.py...
+2025-10-10 19:22:43,501 - INFO - Starting ROI processing pipeline...
+2025-10-10 19:22:43,501 - INFO - 
+============================================================
+2025-10-10 19:22:43,501 - INFO - STEP 1: Processing ROI directories and creating intermediate tables
+2025-10-10 19:22:43,501 - INFO - ============================================================
+2025-10-10 19:22:43,501 - INFO - 
+Processing Table ROI polygons (temporary staging)
+2025-10-10 19:22:43,501 - INFO - ----------------------------------------
+2025-10-10 19:22:43,524 - INFO - Successfully executed: dropping table roi_table_polygons_temp
+2025-10-10 19:22:43,542 - INFO - Created table roi_table_polygons_temp
+2025-10-10 19:22:43,542 - INFO - Processing ROI files from: /home/aabadmin/db_postgres/P_Table_ROI_blr-boommachandra -> roi_table_polygons_temp
+2025-10-10 19:22:43,543 - INFO - Found 1 polygon folders in /home/aabadmin/db_postgres/P_Table_ROI_blr-boommachandra
+2025-10-10 19:22:43,543 - INFO - Processing folder: channel2502
+2025-10-10 19:22:43,543 - INFO -   Processing file: polygon_20.txt
+2025-10-10 19:22:43,545 - INFO - Inserted/Updated polygon for channel 2502, polygon 20 with 4 points
+2025-10-10 19:22:43,545 - INFO -   Processing file: polygon_21.txt
+2025-10-10 19:22:43,546 - INFO - Inserted/Updated polygon for channel 2502, polygon 21 with 6 points
+2025-10-10 19:22:43,546 - INFO -   Processing file: polygon_23.txt
+2025-10-10 19:22:43,547 - INFO - Inserted/Updated polygon for channel 2502, polygon 23 with 6 points
+2025-10-10 19:22:43,547 - INFO -   Processing file: polygon_24.txt
+2025-10-10 19:22:43,548 - INFO - Inserted/Updated polygon for channel 2502, polygon 24 with 6 points
+2025-10-10 19:22:43,548 - INFO -   Processing file: polygon_26.txt
+2025-10-10 19:22:43,549 - INFO - Inserted/Updated polygon for channel 2502, polygon 26 with 6 points
+2025-10-10 19:22:43,549 - INFO -   Processing file: polygon_27.txt
+2025-10-10 19:22:43,549 - INFO - Inserted/Updated polygon for channel 2502, polygon 27 with 6 points
+2025-10-10 19:22:43,549 - INFO -   Processing file: polygon_summary.txt
+2025-10-10 19:22:43,549 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-10 19:22:43,549 - INFO - Processing complete. Processed 6 polygons.
+2025-10-10 19:22:43,549 - INFO - Processing complete for roi_table_polygons_temp! Final statistics:
+2025-10-10 19:22:43,550 - INFO - ROI Database Statistics for roi_table_polygons_temp:
+2025-10-10 19:22:43,550 - INFO -   Total polygons: 6
+2025-10-10 19:22:43,550 - INFO -   Unique channels: 1
+2025-10-10 19:22:43,550 - INFO -   Avg points per polygon: 5.7
+2025-10-10 19:22:43,550 - INFO -   Point count range: 4 - 6
+2025-10-10 19:22:43,550 - INFO - Channel distribution:
+2025-10-10 19:22:43,550 - INFO -   Channel 2502: 6 polygons, avg 5.7 points
+2025-10-10 19:22:43,551 - INFO - Example from roi_table_polygons_temp - Channel 2502, Polygon 20: 4 points, first point: (0.3812, 0.0729)
+2025-10-10 19:22:43,551 - INFO - 
+Processing Section-wise ROI polygons (temporary staging)
+2025-10-10 19:22:43,551 - INFO - ----------------------------------------
+2025-10-10 19:22:43,561 - INFO - Successfully executed: dropping table roi_section_polygons_temp
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:31: SAWarning: This declarative base already contains a class with the same class name and module name as __main__.RoiPolygonDynamic, and will be replaced in the string-lookup table.
+  class RoiPolygonDynamic(Base):
+2025-10-10 19:22:43,580 - INFO - Created table roi_section_polygons_temp
+2025-10-10 19:22:43,580 - INFO - Processing ROI files from: /home/aabadmin/db_postgres/P_Section_ROI_blr-boommachandra -> roi_section_polygons_temp
+2025-10-10 19:22:43,580 - INFO - Found 12 polygon folders in /home/aabadmin/db_postgres/P_Section_ROI_blr-boommachandra
+2025-10-10 19:22:43,580 - INFO - Processing folder: channel1302
+2025-10-10 19:22:43,580 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,581 - INFO - Inserted/Updated polygon for channel 1302, polygon 1 with 4 points
+2025-10-10 19:22:43,581 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,582 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,582 - INFO - Processing folder: channel1602
+2025-10-10 19:22:43,582 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,582 - INFO - Inserted/Updated polygon for channel 1602, polygon 1 with 4 points
+2025-10-10 19:22:43,582 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,583 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,583 - INFO - Processing folder: channel202
+2025-10-10 19:22:43,583 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,583 - INFO - Inserted/Updated polygon for channel 202, polygon 1 with 6 points
+2025-10-10 19:22:43,583 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,583 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,583 - INFO - Processing folder: channel2402
+2025-10-10 19:22:43,583 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,584 - INFO - Inserted/Updated polygon for channel 2402, polygon 1 with 6 points
+2025-10-10 19:22:43,585 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,585 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,585 - INFO - Processing folder: channel2502
+2025-10-10 19:22:43,585 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,585 - INFO - Inserted/Updated polygon for channel 2502, polygon 1 with 8 points
+2025-10-10 19:22:43,585 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,585 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,586 - INFO - Processing folder: channel302
+2025-10-10 19:22:43,586 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,586 - INFO - Inserted/Updated polygon for channel 302, polygon 1 with 4 points
+2025-10-10 19:22:43,586 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,586 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,586 - INFO - Processing folder: channel402
+2025-10-10 19:22:43,586 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,587 - INFO - Inserted/Updated polygon for channel 402, polygon 1 with 4 points
+2025-10-10 19:22:43,587 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,587 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,587 - INFO - Processing folder: channel502
+2025-10-10 19:22:43,587 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,588 - INFO - Inserted/Updated polygon for channel 502, polygon 1 with 4 points
+2025-10-10 19:22:43,588 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,588 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,588 - INFO - Processing folder: channel602
+2025-10-10 19:22:43,588 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,589 - INFO - Inserted/Updated polygon for channel 602, polygon 1 with 6 points
+2025-10-10 19:22:43,589 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,589 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,589 - INFO - Processing folder: channel702
+2025-10-10 19:22:43,589 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,590 - INFO - Inserted/Updated polygon for channel 702, polygon 1 with 4 points
+2025-10-10 19:22:43,590 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,590 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,590 - INFO - Processing folder: channel802
+2025-10-10 19:22:43,590 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,591 - INFO - Inserted/Updated polygon for channel 802, polygon 1 with 4 points
+2025-10-10 19:22:43,591 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,591 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,591 - INFO - Processing folder: channel902
+2025-10-10 19:22:43,591 - INFO -   Processing file: polygon_1_points.txt
+2025-10-10 19:22:43,592 - INFO - Inserted/Updated polygon for channel 902, polygon 1 with 4 points
+2025-10-10 19:22:43,592 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-10 19:22:43,592 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-10 19:22:43,592 - INFO - Processing complete. Processed 12 polygons.
+2025-10-10 19:22:43,592 - INFO - Processing complete for roi_section_polygons_temp! Final statistics:
+2025-10-10 19:22:43,592 - INFO - ROI Database Statistics for roi_section_polygons_temp:
+2025-10-10 19:22:43,592 - INFO -   Total polygons: 12
+2025-10-10 19:22:43,592 - INFO -   Unique channels: 12
+2025-10-10 19:22:43,592 - INFO -   Avg points per polygon: 4.8
+2025-10-10 19:22:43,592 - INFO -   Point count range: 4 - 8
+2025-10-10 19:22:43,593 - INFO - Channel distribution:
+2025-10-10 19:22:43,593 - INFO -   Channel 202: 1 polygons, avg 6.0 points
+2025-10-10 19:22:43,593 - INFO -   Channel 302: 1 polygons, avg 4.0 points
+2025-10-10 19:22:43,593 - INFO -   Channel 402: 1 polygons, avg 4.0 points
+2025-10-10 19:22:43,593 - INFO -   Channel 502: 1 polygons, avg 4.0 points
+2025-10-10 19:22:43,593 - INFO -   Channel 602: 1 polygons, avg 6.0 points
+2025-10-10 19:22:43,593 - INFO -   Channel 702: 1 polygons, avg 4.0 points
+2025-10-10 19:22:43,593 - INFO -   Channel 802: 1 polygons, avg 4.0 points
+2025-10-10 19:22:43,593 - INFO -   Channel 902: 1 polygons, avg 4.0 points
+2025-10-10 19:22:43,593 - INFO -   Channel 1302: 1 polygons, avg 4.0 points
+2025-10-10 19:22:43,593 - INFO -   Channel 1602: 1 polygons, avg 4.0 points
+2025-10-10 19:22:43,593 - INFO -   Channel 2402: 1 polygons, avg 6.0 points
+2025-10-10 19:22:43,593 - INFO -   Channel 2502: 1 polygons, avg 8.0 points
+2025-10-10 19:22:43,593 - INFO - Example from roi_section_polygons_temp - Channel 202, Polygon 1: 6 points, first point: (0.0094, 0.0104)
+2025-10-10 19:22:43,593 - INFO - 
+============================================================
+2025-10-10 19:22:43,593 - INFO - STEP 2: Creating polygon_points table
+2025-10-10 19:22:43,593 - INFO - ============================================================
+2025-10-10 19:22:43,605 - INFO - Successfully executed: creating polygon_points table
+2025-10-10 19:22:43,605 - INFO - Created/verified polygon_points table with indexes
+2025-10-10 19:22:43,605 - INFO - 
+============================================================
+2025-10-10 19:22:43,605 - INFO - STEP 3: Converting intermediate tables to polygon_points table
+2025-10-10 19:22:43,605 - INFO - ============================================================
+2025-10-10 19:22:43,605 - INFO - 
+Converting Table ROI polygons (temporary staging) to polygon_points table
+2025-10-10 19:22:43,605 - INFO - --------------------------------------------------
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column 'geom'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2502_p20'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2502_p21'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2502_p23'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2502_p24'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2502_p26'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2502_p27'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '102_p9'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '802_p10'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '802_p11'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '802_p13'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '802_p14'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '802_p15'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '802_p16'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '902_p3'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '902_p5'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p6'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p10'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p11'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p12'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p13'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p14'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p15'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p9'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p10'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p11'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p13'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1302_p8'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1402_p9'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1402_p10'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1402_p11'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1402_p13'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1402_p14'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1702_p34'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1702_p35'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1702_p36'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1702_p37'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1702_p38'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1802_p23'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1802_p24'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1802_p28'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1802_p29'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1902_p34'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1902_p35'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1902_p36'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1902_p37'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1902_p38'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1902_p39'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p17'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p18'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p19'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p20'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p22'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p26'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p21'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p24'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p29'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p30'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p31'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p32'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p33'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '302_p1'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '302_p2'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '302_p3'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '302_p4'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p17'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p18'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p19'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p20'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p21'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p22'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p23'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p24'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p25'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p26'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p27'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p28'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p29'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p30'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1302_p31'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1302_p32'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1802_p33'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1802_p34'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1802_p35'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p1'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p2'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p3'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p4'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p5'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p6'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p7'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p8'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p9'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1402_p12'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2502_p13'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2502_p14'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2502_p15'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2602_p16'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '502_p1'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '502_p2'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '502_p3'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '502_p4'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '502_p5'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '502_p6'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '502_p7'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '502_p8'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '502_p13'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '902_p1'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '902_p2'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '902_p4'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '902_p6'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '902_p10'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '902_p11'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '902_p12'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '902_p13'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '902_p14'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p2'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p3'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p4'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p5'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p6'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p7'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p11'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p12'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1002_p13'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p16'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p17'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p18'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p19'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p22'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p23'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1102_p24'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p15'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p16'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p17'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p18'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p19'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p20'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p21'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p22'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p23'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1302_p16'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1302_p17'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p0'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p10'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p11'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '602_p3'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '602_p4'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '702_p4'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '702_p5'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1302_p10'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1302_p11'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p7'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p8'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p12'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p13'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2102_p1'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2102_p2'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p5'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p6'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p7'
+  metadata.reflect(bind=engine)
+2025-10-10 19:22:43,710 - INFO - Converting data from roi_table_polygons_temp to polygon_points table...
+2025-10-10 19:22:43,716 - INFO - Inserted/Updated 34 rows from roi_table_polygons_temp into 'polygon_points' table.
+2025-10-10 19:22:43,716 - INFO - 
+Converting Section-wise ROI polygons (temporary staging) to polygon_points table
+2025-10-10 19:22:43,716 - INFO - --------------------------------------------------
+2025-10-10 19:22:43,802 - INFO - Converting data from roi_section_polygons_temp to polygon_points table...
+2025-10-10 19:22:43,808 - INFO - Inserted/Updated 58 rows from roi_section_polygons_temp into 'polygon_points' table.
+2025-10-10 19:22:43,809 - INFO - 
+============================================================
+2025-10-10 19:22:43,809 - INFO - STEP 4: Creating ROI geometry tables from staging data
+2025-10-10 19:22:43,809 - INFO - ============================================================
+2025-10-10 19:22:43,809 - INFO - 
+Creating geometry table for Table ROI polygons (temporary staging)
+2025-10-10 19:22:43,809 - INFO - Source: roi_table_polygons_temp -> Target: roi_table_polygons_geometries_blr-boommachandra
+2025-10-10 19:22:43,809 - INFO - --------------------------------------------------
+2025-10-10 19:22:43,821 - INFO - Successfully executed: creating temporary points table: roi_table_polygons_points_temp
+2025-10-10 19:22:43,837 - INFO - Successfully executed: creating geometry table roi_table_polygons_geometries_blr-boommachandra
+2025-10-10 19:22:43,878 - INFO - ✅ Table '"roi_table_polygons_geometries_blr-boommachandra"' created successfully!
+2025-10-10 19:22:43,878 - INFO -    - Total polygon geometries: 6
+2025-10-10 19:22:43,878 - INFO -    - Unique channels: 1
+2025-10-10 19:22:43,881 - INFO - Successfully executed: cleaning up temporary table: roi_table_polygons_points_temp
+2025-10-10 19:22:43,909 - INFO - 
+Creating geometry table for Section-wise ROI polygons (temporary staging)
+2025-10-10 19:22:43,910 - INFO - Source: roi_section_polygons_temp -> Target: roi_section_polygons_geometries_blr-boommachandra
+2025-10-10 19:22:43,910 - INFO - --------------------------------------------------
+2025-10-10 19:22:43,922 - INFO - Successfully executed: creating temporary points table: roi_section_polygons_points_temp
+2025-10-10 19:22:43,937 - INFO - Successfully executed: creating geometry table roi_section_polygons_geometries_blr-boommachandra
+2025-10-10 19:22:43,975 - INFO - ✅ Table '"roi_section_polygons_geometries_blr-boommachandra"' created successfully!
+2025-10-10 19:22:43,976 - INFO -    - Total polygon geometries: 12
+2025-10-10 19:22:43,976 - INFO -    - Unique channels: 12
+2025-10-10 19:22:43,978 - INFO - Successfully executed: cleaning up temporary table: roi_section_polygons_points_temp
+2025-10-10 19:22:44,006 - INFO - 
+============================================================
+2025-10-10 19:22:44,006 - INFO - STEP 5: Creating ROI geometry matrix table (Table ROI only)
+2025-10-10 19:22:44,006 - INFO - ============================================================
+2025-10-10 19:22:44,006 - INFO - 
+Creating matrix table for Table ROI polygons
+2025-10-10 19:22:44,006 - INFO - Source: roi_table_polygons_geometries_blr-boommachandra -> Target: roi_table_polygons_matrix_blr-boommachandra
+2025-10-10 19:22:44,006 - INFO - --------------------------------------------------
+2025-10-10 19:22:44,016 - INFO - Creating matrix table roi_table_polygons_matrix_blr-boommachandra from roi_table_polygons_geometries_blr-boommachandra...
+2025-10-10 19:22:44,017 - INFO - Found 6 unique channel-polygon pairs
+2025-10-10 19:22:44,056 - INFO - ✅ Matrix table '"roi_table_polygons_matrix_blr-boommachandra"' created successfully!
+2025-10-10 19:22:44,056 - INFO -    - Total rows (channels): 1
+2025-10-10 19:22:44,056 - INFO -    - Total columns (polygons): 6
+2025-10-10 19:22:44,056 - INFO - 
+============================================================
+2025-10-10 19:22:44,056 - INFO - STEP 7: Converting channel_id columns to text format
+2025-10-10 19:22:44,056 - INFO - ============================================================
+2025-10-10 19:22:44,056 - INFO - Converting channel_id columns to text format with 'channel' prefix
+2025-10-10 19:22:44,056 - INFO - Tables to process: ['polygon_points', 'roi_table_polygons_geometries_blr-boommachandra', 'roi_section_polygons_geometries_blr-boommachandra', 'roi_table_polygons_matrix_blr-boommachandra']
+2025-10-10 19:22:44,056 - INFO - --------------------------------------------------
+2025-10-10 19:22:44,057 - INFO - Starting channel_id conversion to text format...
+2025-10-10 19:22:44,057 - INFO - Converting channel_id in table: polygon_points
+2025-10-10 19:22:44,118 - INFO -   ✅ Successfully converted polygon_points - Sample values: ['channel1302', 'channel1602', 'channel202', 'channel2402', 'channel2502']
+2025-10-10 19:22:44,118 - INFO - Converting channel_id in table: roi_table_polygons_geometries_blr-boommachandra
+2025-10-10 19:22:44,154 - INFO -   ✅ Successfully converted roi_table_polygons_geometries_blr-boommachandra - Sample values: ['channel2502']
+2025-10-10 19:22:44,155 - INFO - Converting channel_id in table: roi_section_polygons_geometries_blr-boommachandra
+2025-10-10 19:22:44,188 - INFO -   ✅ Successfully converted roi_section_polygons_geometries_blr-boommachandra - Sample values: ['channel1302', 'channel1602', 'channel202', 'channel2402', 'channel2502']
+2025-10-10 19:22:44,189 - INFO - Converting channel_id in table: roi_table_polygons_matrix_blr-boommachandra
+2025-10-10 19:22:44,220 - INFO -   ✅ Successfully converted roi_table_polygons_matrix_blr-boommachandra - Sample values: ['channel2502']
+2025-10-10 19:22:44,220 - INFO - Channel ID conversion to text format completed!
+2025-10-10 19:22:44,220 - INFO - 
+============================================================
+2025-10-10 19:22:44,220 - INFO - PROCESSING COMPLETE!
+2025-10-10 19:22:44,220 - INFO - ============================================================
+2025-10-10 19:22:44,220 - INFO - Created temporary staging tables:
+2025-10-10 19:22:44,220 - INFO -   - roi_table_polygons_temp (Table ROI polygons (temporary staging))
+2025-10-10 19:22:44,220 - INFO -   - roi_section_polygons_temp (Section-wise ROI polygons (temporary staging))
+2025-10-10 19:22:44,220 - INFO - Converted all data to final 'polygon_points' table
+2025-10-10 19:22:44,220 - INFO - Created ROI geometry tables:
+2025-10-10 19:22:44,220 - INFO -   - roi_table_polygons_geometries_blr-boommachandra (from roi_table_polygons_temp)
+2025-10-10 19:22:44,221 - INFO -   - roi_section_polygons_geometries_blr-boommachandra (from roi_section_polygons_temp)
+2025-10-10 19:22:44,221 - INFO - Created matrix table: roi_table_polygons_matrix_blr-boommachandra (from roi_table_polygons_geometries_blr-boommachandra)
+2025-10-10 19:22:44,232 - INFO - 
+Final polygon_points Table Statistics:
+2025-10-10 19:22:44,232 - INFO -   Total points: 92
+2025-10-10 19:22:44,232 - INFO -   Unique channels: 12
+2025-10-10 19:22:44,232 - INFO -   Unique polygons: 7
+2025-10-10 19:22:44,232 - WARNING - Could not retrieve statistics for roi_table_polygons_geometries_blr-boommachandra: (psycopg2.errors.SyntaxError) syntax error at or near "-"
+LINE 1: ...ue_channels FROM roi_table_polygons_geometries_blr-boommacha...
+                                                             ^
+
+[SQL: SELECT COUNT(*) as total_geometries, COUNT(DISTINCT channel_id) as unique_channels FROM roi_table_polygons_geometries_blr-boommachandra]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-10 19:22:44,233 - WARNING - Could not retrieve statistics for roi_section_polygons_geometries_blr-boommachandra: (psycopg2.errors.SyntaxError) syntax error at or near "-"
+LINE 1: ..._channels FROM roi_section_polygons_geometries_blr-boommacha...
+                                                             ^
+
+[SQL: SELECT COUNT(*) as total_geometries, COUNT(DISTINCT channel_id) as unique_channels FROM roi_section_polygons_geometries_blr-boommachandra]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-10 19:22:44,233 - WARNING - Could not retrieve statistics for roi_table_polygons_matrix_blr-boommachandra: (psycopg2.errors.SyntaxError) syntax error at or near "-"
+LINE 1: ...) as total_rows FROM roi_table_polygons_matrix_blr-boommacha...
+                                                             ^
+
+[SQL: SELECT COUNT(*) as total_rows FROM roi_table_polygons_matrix_blr-boommachandra]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-10 19:22:44,233 - INFO - 
+============================================================
+2025-10-10 19:22:44,233 - INFO - STEP 9: Cleaning up temporary tables
+2025-10-10 19:22:44,233 - INFO - ============================================================
+2025-10-10 19:22:44,233 - INFO - Keeping final tables: ['roi_table_polygons_matrix_blr-boommachandra', 'roi_section_polygons_geometries']
+2025-10-10 19:22:44,233 - INFO - Dropping temporary tables: ['polygon_points', 'roi_table_polygons_temp', 'roi_table_polygons_geometries_blr-boommachandra', 'roi_section_polygons_temp']
+2025-10-10 19:22:44,233 - INFO - --------------------------------------------------
+2025-10-10 19:22:44,244 - INFO - Successfully executed: dropping temporary table: polygon_points
+2025-10-10 19:22:44,283 - INFO -   ✅ Dropped temporary table: polygon_points
+2025-10-10 19:22:44,285 - INFO - Successfully executed: dropping temporary table: roi_table_polygons_temp
+2025-10-10 19:22:44,321 - INFO -   ✅ Dropped temporary table: roi_table_polygons_temp
+2025-10-10 19:22:44,322 - ERROR - Error in dropping temporary table: roi_table_polygons_geometries_blr-boommachandra: (psycopg2.errors.SyntaxError) syntax error at or near "-"
+LINE 1: ... TABLE IF EXISTS roi_table_polygons_geometries_blr-boommacha...
+                                                             ^
+
+[SQL: DROP TABLE IF EXISTS roi_table_polygons_geometries_blr-boommachandra CASCADE]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-10 19:22:44,322 - WARNING -   ⚠️  Could not drop table roi_table_polygons_geometries_blr-boommachandra: (psycopg2.errors.SyntaxError) syntax error at or near "-"
+LINE 1: ... TABLE IF EXISTS roi_table_polygons_geometries_blr-boommacha...
+                                                             ^
+
+[SQL: DROP TABLE IF EXISTS roi_table_polygons_geometries_blr-boommachandra CASCADE]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-10 19:22:44,323 - INFO - Successfully executed: dropping temporary table: roi_section_polygons_temp
+2025-10-10 19:22:44,359 - INFO -   ✅ Dropped temporary table: roi_section_polygons_temp
+2025-10-10 19:22:44,359 - INFO - ✅ Cleanup completed! Only final tables remain.
+2025-10-10 19:22:44,359 - INFO - ============================================================
+Running one_shot_all_output_tables.py...
+Creating output tables for detection table: detections
+Configured table pairs: {'roi_table_polygons_matrix_blr-boommachandra': 'detections_in_table_blr-boommachandra', 'roi_table_polygons_matrix_scaled_blr-boommachandra': 'detections_in_table_scaled_blr-boommachandra', 'roi_section_polygons_geometries_blr-boommachandra': 'detections_in_section_blr-boommachandra'}
+============================================================
+Creating output table: detections_in_table_blr-boommachandra (based on roi_table_polygons_matrix_blr-boommachandra)
+Output table 'detections_in_table_blr-boommachandra' already exists. Skipping...
+✓ Completed table creation: detections_in_table_blr-boommachandra
+--------------------------------------------------
+Creating output table: detections_in_table_scaled_blr-boommachandra (based on roi_table_polygons_matrix_scaled_blr-boommachandra)
+✗ Failed to create table: detections_in_table_scaled_blr-boommachandra
+  Error: 'roi_table_polygons_matrix_scaled_blr-boommachandra'
+--------------------------------------------------
+Creating output table: detections_in_section_blr-boommachandra (based on roi_section_polygons_geometries_blr-boommachandra)
+Output table 'detections_in_section_blr-boommachandra' already exists. Skipping...
+✓ Completed table creation: detections_in_section_blr-boommachandra
+--------------------------------------------------
+Table creation process completed!

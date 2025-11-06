@@ -1,0 +1,86 @@
+Directory: blr-boommachandra-2_channel1202 (Image #4)
+Timestamp: 20250923_174437
+Image Dimensions: 640x384
+Source Image: blr-boommachandra-2_channel1202_summary.jpg
+Outlet: blr-boommachandra-2
+Channel: 1202
+Image Path: /home/mayank/Downloads/summary_frames_a2b/blr-boommachandra-2_channel1202_summary.jpg
+Unique Key: blr-boommachandra-2_channel1202
+============================================================
+
+Total Polygons: 4
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 6
+Original Coordinates:
+  Point 1: (396, 95)
+  Point 2: (492, 110)
+  Point 3: (525, 130)
+  Point 4: (509, 156)
+  Point 5: (504, 193)
+  Point 6: (407, 200)
+Normalized Coordinates:
+  Point 1: (0.6188, 0.2474)
+  Point 2: (0.7688, 0.2865)
+  Point 3: (0.8203, 0.3385)
+  Point 4: (0.7953, 0.4062)
+  Point 5: (0.7875, 0.5026)
+  Point 6: (0.6359, 0.5208)
+
+----------------------------------------
+
+Polygon: polygon_2
+File: polygon_2.txt
+Points: 5
+Original Coordinates:
+  Point 1: (510, 155)
+  Point 2: (605, 154)
+  Point 3: (635, 222)
+  Point 4: (573, 353)
+  Point 5: (490, 243)
+Normalized Coordinates:
+  Point 1: (0.7969, 0.4036)
+  Point 2: (0.9453, 0.401)
+  Point 3: (0.9922, 0.5781)
+  Point 4: (0.8953, 0.9193)
+  Point 5: (0.7656, 0.6328)
+
+----------------------------------------
+
+Polygon: polygon_3
+File: polygon_3.txt
+Points: 5
+Original Coordinates:
+  Point 1: (512, 118)
+  Point 2: (588, 110)
+  Point 3: (603, 134)
+  Point 4: (601, 148)
+  Point 5: (529, 139)
+Normalized Coordinates:
+  Point 1: (0.8, 0.3073)
+  Point 2: (0.9187, 0.2865)
+  Point 3: (0.9422, 0.349)
+  Point 4: (0.9391, 0.3854)
+  Point 5: (0.8266, 0.362)
+
+----------------------------------------
+
+Polygon: polygon_4
+File: polygon_4.txt
+Points: 5
+Original Coordinates:
+  Point 1: (337, 94)
+  Point 2: (365, 94)
+  Point 3: (393, 126)
+  Point 4: (389, 156)
+  Point 5: (348, 136)
+Normalized Coordinates:
+  Point 1: (0.5266, 0.2448)
+  Point 2: (0.5703, 0.2448)
+  Point 3: (0.6141, 0.3281)
+  Point 4: (0.6078, 0.4062)
+  Point 5: (0.5437, 0.3542)
+
+----------------------------------------
+

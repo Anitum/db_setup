@@ -1,0 +1,5 @@
+Polygon 11 Points (original coordinates):
+Point 1: (848, 226)
+Point 2: (924, 168)
+Point 3: (1206, 180)
+Point 4: (1186, 248)

@@ -1,0 +1,78 @@
+{
+    "timestamp": "20250928_194459",
+    "channel_index": 5,
+    "directory_name": "blr-boommachandra_channel602",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "overlaid_blr-boommachandra_channel602_1757682710.8015046.jpg",
+        "full_path": "/home/mayank/Downloads/Zayd/blr/overlaid_blr-boommachandra_channel602_1757682710.8015046.jpg",
+        "outlet_name": "blr-boommachandra",
+        "channel_number": "602",
+        "display_name": "blr-boommachandra (Channel 602)",
+        "unique_key": "blr-boommachandra_channel602"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "blr-boommachandra_channel602/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    243,
+                    4
+                ],
+                [
+                    242,
+                    64
+                ],
+                [
+                    1,
+                    130
+                ],
+                [
+                    0,
+                    380
+                ],
+                [
+                    636,
+                    378
+                ],
+                [
+                    635,
+                    4
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.3797,
+                    0.0104
+                ],
+                [
+                    0.3781,
+                    0.1667
+                ],
+                [
+                    0.0016,
+                    0.3385
+                ],
+                [
+                    0.0,
+                    0.9896
+                ],
+                [
+                    0.9938,
+                    0.9844
+                ],
+                [
+                    0.9922,
+                    0.0104
+                ]
+            ],
+            "point_count": 6
+        }
+    ]
+}

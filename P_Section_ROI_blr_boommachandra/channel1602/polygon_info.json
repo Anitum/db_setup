@@ -1,0 +1,62 @@
+{
+    "timestamp": "20250928_194510",
+    "channel_index": 12,
+    "directory_name": "blr-boommachandra_channel1602",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "overlaid_blr-boommachandra_channel1602_1757682320.8921943.jpg",
+        "full_path": "/home/mayank/Downloads/Zayd/blr/overlaid_blr-boommachandra_channel1602_1757682320.8921943.jpg",
+        "outlet_name": "blr-boommachandra",
+        "channel_number": "1602",
+        "display_name": "blr-boommachandra (Channel 1602)",
+        "unique_key": "blr-boommachandra_channel1602"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "blr-boommachandra_channel1602/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    3,
+                    3
+                ],
+                [
+                    636,
+                    3
+                ],
+                [
+                    636,
+                    382
+                ],
+                [
+                    3,
+                    380
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.0047,
+                    0.0078
+                ],
+                [
+                    0.9938,
+                    0.0078
+                ],
+                [
+                    0.9938,
+                    0.9948
+                ],
+                [
+                    0.0047,
+                    0.9896
+                ]
+            ],
+            "point_count": 4
+        }
+    ]
+}

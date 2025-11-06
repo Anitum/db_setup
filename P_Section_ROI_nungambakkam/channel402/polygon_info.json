@@ -1,0 +1,78 @@
+{
+    "timestamp": "20250927_182118",
+    "channel_index": 4,
+    "directory_name": "nungambakkam_channel402",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "overlaid_nungambakkam_channel402_1757682013.8777325.jpg",
+        "full_path": "/home/mayank/Downloads/Zayd/nun/overlaid_nungambakkam_channel402_1757682013.8777325.jpg",
+        "outlet_name": "nungambakkam",
+        "channel_number": "402",
+        "display_name": "nungambakkam (Channel 402)",
+        "unique_key": "nungambakkam_channel402"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "nungambakkam_channel402/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    478,
+                    152
+                ],
+                [
+                    406,
+                    20
+                ],
+                [
+                    2,
+                    85
+                ],
+                [
+                    2,
+                    374
+                ],
+                [
+                    322,
+                    376
+                ],
+                [
+                    343,
+                    194
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.7469,
+                    0.3958
+                ],
+                [
+                    0.6344,
+                    0.0521
+                ],
+                [
+                    0.0031,
+                    0.2214
+                ],
+                [
+                    0.0031,
+                    0.974
+                ],
+                [
+                    0.5031,
+                    0.9792
+                ],
+                [
+                    0.5359,
+                    0.5052
+                ]
+            ],
+            "point_count": 6
+        }
+    ]
+}

@@ -27,7 +27,7 @@ def get_outlet_trigger_config():
         dict: Configuration for outlet-based triggers
     """
     # Convert comma-separated string from env var to a list
-    enabled_outlets_str = os.environ.get('ENABLED_OUTLETS', 'semmancheri,not_semmancheri')
+    enabled_outlets_str = os.environ.get('ENABLED_OUTLETS', "semmancheri, th_road, blr_boommachandra_2, blr_boommachandra, nungambakkam, ooty, ooty_2")
     enabled_outlets_list = [outlet.strip() for outlet in enabled_outlets_str.split(',')]
     
     return {

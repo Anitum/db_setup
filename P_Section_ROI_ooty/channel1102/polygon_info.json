@@ -1,0 +1,86 @@
+{
+    "timestamp": "20250928_150454",
+    "channel_index": 9,
+    "directory_name": "ooty_channel1102",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "overlaid_ooty_channel1102_1757682073.9081388.jpg",
+        "full_path": "/home/mayank/Downloads/Zayd/ooty/overlaid_ooty_channel1102_1757682073.9081388.jpg",
+        "outlet_name": "ooty",
+        "channel_number": "1102",
+        "display_name": "ooty (Channel 1102)",
+        "unique_key": "ooty_channel1102"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "ooty_channel1102/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    123,
+                    1
+                ],
+                [
+                    1,
+                    1
+                ],
+                [
+                    3,
+                    374
+                ],
+                [
+                    631,
+                    371
+                ],
+                [
+                    637,
+                    171
+                ],
+                [
+                    521,
+                    92
+                ],
+                [
+                    276,
+                    122
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.1922,
+                    0.0026
+                ],
+                [
+                    0.0016,
+                    0.0026
+                ],
+                [
+                    0.0047,
+                    0.974
+                ],
+                [
+                    0.9859,
+                    0.9661
+                ],
+                [
+                    0.9953,
+                    0.4453
+                ],
+                [
+                    0.8141,
+                    0.2396
+                ],
+                [
+                    0.4313,
+                    0.3177
+                ]
+            ],
+            "point_count": 7
+        }
+    ]
+}

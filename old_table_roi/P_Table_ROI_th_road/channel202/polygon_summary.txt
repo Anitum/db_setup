@@ -1,0 +1,80 @@
+Directory: th-road_channel202 (Image #152)
+Timestamp: 20250923_190216
+Image Dimensions: 640x384
+Source Image: th-road_channel202_summary.jpg
+Outlet: th-road
+Channel: 202
+Image Path: /home/mayank/Downloads/summary_frames_a2b/th-road_channel202_summary.jpg
+Unique Key: th-road_channel202
+============================================================
+
+Total Polygons: 4
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 5
+Original Coordinates:
+  Point 1: (2, 100)
+  Point 2: (0, 212)
+  Point 3: (87, 233)
+  Point 4: (145, 123)
+  Point 5: (55, 86)
+Normalized Coordinates:
+  Point 1: (0.0031, 0.2604)
+  Point 2: (0.0, 0.5521)
+  Point 3: (0.1359, 0.6068)
+  Point 4: (0.2266, 0.3203)
+  Point 5: (0.0859, 0.224)
+
+----------------------------------------
+
+Polygon: polygon_2
+File: polygon_2.txt
+Points: 5
+Original Coordinates:
+  Point 1: (140, 71)
+  Point 2: (169, 56)
+  Point 3: (242, 65)
+  Point 4: (200, 113)
+  Point 5: (149, 109)
+Normalized Coordinates:
+  Point 1: (0.2188, 0.1849)
+  Point 2: (0.2641, 0.1458)
+  Point 3: (0.3781, 0.1693)
+  Point 4: (0.3125, 0.2943)
+  Point 5: (0.2328, 0.2839)
+
+----------------------------------------
+
+Polygon: polygon_3
+File: polygon_3.txt
+Points: 4
+Original Coordinates:
+  Point 1: (185, 49)
+  Point 2: (206, 35)
+  Point 3: (254, 53)
+  Point 4: (240, 64)
+Normalized Coordinates:
+  Point 1: (0.2891, 0.1276)
+  Point 2: (0.3219, 0.0911)
+  Point 3: (0.3969, 0.138)
+  Point 4: (0.375, 0.1667)
+
+----------------------------------------
+
+Polygon: polygon_4
+File: polygon_4.txt
+Points: 4
+Original Coordinates:
+  Point 1: (268, 30)
+  Point 2: (301, 38)
+  Point 3: (318, 20)
+  Point 4: (290, 11)
+Normalized Coordinates:
+  Point 1: (0.4188, 0.0781)
+  Point 2: (0.4703, 0.099)
+  Point 3: (0.4969, 0.0521)
+  Point 4: (0.4531, 0.0286)
+
+----------------------------------------
+

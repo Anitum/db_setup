@@ -1,0 +1,180 @@
+{
+    "timestamp": "20250923_180428",
+    "image_index": 32,
+    "directory_name": "blr-boommachandra-2_channel902",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "blr-boommachandra-2_channel902_summary.jpg",
+        "full_path": "/home/mayank/Downloads/summary_frames_a2b/blr-boommachandra-2_channel902_summary.jpg",
+        "outlet_name": "blr-boommachandra-2",
+        "channel_number": "902",
+        "display_name": "blr-boommachandra-2 (Channel 902)",
+        "unique_key": "blr-boommachandra-2_channel902"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_3",
+            "filename": "polygon_3.txt",
+            "full_path": "/home/anitum-jk/Downloads/trail/Table_ROI_5_outlets/blr-boommachandra-2_channel902/polygon_3.txt",
+            "original_coordinates": [
+                [
+                    292,
+                    89
+                ],
+                [
+                    464,
+                    97
+                ],
+                [
+                    513,
+                    156
+                ],
+                [
+                    491,
+                    247
+                ],
+                [
+                    269,
+                    229
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.4562,
+                    0.2318
+                ],
+                [
+                    0.725,
+                    0.2526
+                ],
+                [
+                    0.8016,
+                    0.4062
+                ],
+                [
+                    0.7672,
+                    0.6432
+                ],
+                [
+                    0.4203,
+                    0.5964
+                ]
+            ],
+            "point_count": 5
+        },
+        {
+            "polygon_id": 2,
+            "name": "polygon_5",
+            "filename": "polygon_5.txt",
+            "full_path": "/home/anitum-jk/Downloads/trail/Table_ROI_5_outlets/blr-boommachandra-2_channel902/polygon_5.txt",
+            "original_coordinates": [
+                [
+                    285,
+                    215
+                ],
+                [
+                    564,
+                    235
+                ],
+                [
+                    617,
+                    334
+                ],
+                [
+                    529,
+                    379
+                ],
+                [
+                    272,
+                    377
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.4453,
+                    0.5599
+                ],
+                [
+                    0.8812,
+                    0.612
+                ],
+                [
+                    0.9641,
+                    0.8698
+                ],
+                [
+                    0.8266,
+                    0.987
+                ],
+                [
+                    0.425,
+                    0.9818
+                ]
+            ],
+            "point_count": 5
+        },
+        {
+            "polygon_id": 3,
+            "name": "polygon_2",
+            "filename": "polygon_2.txt",
+            "full_path": "/home/anitum-jk/Downloads/trail/Table_ROI_5_outlets/blr-boommachandra-2_channel902/polygon_2.txt",
+            "original_coordinates": [
+                [
+                    66,
+                    84
+                ],
+                [
+                    146,
+                    89
+                ],
+                [
+                    125,
+                    145
+                ],
+                [
+                    137,
+                    233
+                ],
+                [
+                    28,
+                    211
+                ],
+                [
+                    17,
+                    123
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.1031,
+                    0.2188
+                ],
+                [
+                    0.2281,
+                    0.2318
+                ],
+                [
+                    0.1953,
+                    0.3776
+                ],
+                [
+                    0.2141,
+                    0.6068
+                ],
+                [
+                    0.0437,
+                    0.5495
+                ],
+                [
+                    0.0266,
+                    0.3203
+                ]
+            ],
+            "point_count": 6
+        }
+    ]
+}

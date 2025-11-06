@@ -1,0 +1,529 @@
+Starting Python scripts for outlet 'blr_boommachandra_2'... Logging to setup_blr_boommachandra_2.log
+Running one_shot_to_create_all_geom_tables.py...
+2025-10-24 12:34:29,907 - INFO - Starting ROI processing pipeline...
+2025-10-24 12:34:29,907 - INFO - 
+============================================================
+2025-10-24 12:34:29,907 - INFO - STEP 1: Processing ROI directories and creating intermediate tables
+2025-10-24 12:34:29,907 - INFO - ============================================================
+2025-10-24 12:34:29,907 - INFO - 
+Processing Table ROI polygons (temporary staging)
+2025-10-24 12:34:29,907 - INFO - ----------------------------------------
+2025-10-24 12:34:29,929 - INFO - Successfully executed: dropping table roi_table_polygons_temp
+2025-10-24 12:34:29,948 - INFO - Created table roi_table_polygons_temp
+2025-10-24 12:34:29,948 - INFO - Processing ROI files from: /home/aabadmin/db_postgres/P_Table_ROI_blr_boommachandra_2 -> roi_table_polygons_temp
+2025-10-24 12:34:29,948 - INFO - Found 13 polygon folders in /home/aabadmin/db_postgres/P_Table_ROI_blr_boommachandra_2
+2025-10-24 12:34:29,948 - INFO - Processing folder: channel1802
+2025-10-24 12:34:29,949 - INFO -   Processing file: polygon_28.txt
+2025-10-24 12:34:29,951 - INFO - Inserted/Updated polygon for channel 1802, polygon 28 with 5 points
+2025-10-24 12:34:29,951 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,951 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,951 - INFO -   Processing file: polygon_29.txt
+2025-10-24 12:34:29,952 - INFO - Inserted/Updated polygon for channel 1802, polygon 29 with 6 points
+2025-10-24 12:34:29,952 - INFO -   Processing file: polygon_24.txt
+2025-10-24 12:34:29,953 - INFO - Inserted/Updated polygon for channel 1802, polygon 24 with 4 points
+2025-10-24 12:34:29,953 - INFO -   Processing file: polygon_23.txt
+2025-10-24 12:34:29,953 - INFO - Inserted/Updated polygon for channel 1802, polygon 23 with 4 points
+2025-10-24 12:34:29,953 - INFO - Processing folder: channel2202
+2025-10-24 12:34:29,954 - INFO -   Processing file: polygon_32.txt
+2025-10-24 12:34:29,954 - INFO - Inserted/Updated polygon for channel 2202, polygon 32 with 4 points
+2025-10-24 12:34:29,954 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,954 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,954 - INFO -   Processing file: polygon_29.txt
+2025-10-24 12:34:29,955 - INFO - Inserted/Updated polygon for channel 2202, polygon 29 with 5 points
+2025-10-24 12:34:29,955 - INFO -   Processing file: polygon_33.txt
+2025-10-24 12:34:29,956 - INFO - Inserted/Updated polygon for channel 2202, polygon 33 with 4 points
+2025-10-24 12:34:29,956 - INFO -   Processing file: polygon_31.txt
+2025-10-24 12:34:29,957 - INFO - Inserted/Updated polygon for channel 2202, polygon 31 with 4 points
+2025-10-24 12:34:29,957 - INFO -   Processing file: polygon_30.txt
+2025-10-24 12:34:29,959 - INFO - Inserted/Updated polygon for channel 2202, polygon 30 with 5 points
+2025-10-24 12:34:29,959 - INFO -   Processing file: polygon_24.txt
+2025-10-24 12:34:29,959 - INFO - Inserted/Updated polygon for channel 2202, polygon 24 with 4 points
+2025-10-24 12:34:29,960 - INFO -   Processing file: polygon_21.txt
+2025-10-24 12:34:29,960 - INFO - Inserted/Updated polygon for channel 2202, polygon 21 with 5 points
+2025-10-24 12:34:29,960 - INFO - Processing folder: channel102
+2025-10-24 12:34:29,960 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,960 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,960 - INFO -   Processing file: polygon_9.txt
+2025-10-24 12:34:29,961 - INFO - Inserted/Updated polygon for channel 102, polygon 9 with 4 points
+2025-10-24 12:34:29,961 - INFO - Processing folder: channel802
+2025-10-24 12:34:29,961 - INFO -   Processing file: polygon_15.txt
+2025-10-24 12:34:29,962 - INFO - Inserted/Updated polygon for channel 802, polygon 15 with 5 points
+2025-10-24 12:34:29,962 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,962 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,962 - INFO -   Processing file: polygon_13.txt
+2025-10-24 12:34:29,963 - INFO - Inserted/Updated polygon for channel 802, polygon 13 with 5 points
+2025-10-24 12:34:29,963 - INFO -   Processing file: polygon_11.txt
+2025-10-24 12:34:29,964 - INFO - Inserted/Updated polygon for channel 802, polygon 11 with 6 points
+2025-10-24 12:34:29,964 - INFO -   Processing file: polygon_16.txt
+2025-10-24 12:34:29,964 - INFO - Inserted/Updated polygon for channel 802, polygon 16 with 5 points
+2025-10-24 12:34:29,964 - INFO -   Processing file: polygon_14.txt
+2025-10-24 12:34:29,965 - INFO - Inserted/Updated polygon for channel 802, polygon 14 with 6 points
+2025-10-24 12:34:29,965 - INFO -   Processing file: polygon_10.txt
+2025-10-24 12:34:29,966 - INFO - Inserted/Updated polygon for channel 802, polygon 10 with 4 points
+2025-10-24 12:34:29,966 - INFO - Processing folder: channel1002
+2025-10-24 12:34:29,966 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,966 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,966 - INFO -   Processing file: polygon_1.txt
+2025-10-24 12:34:29,967 - INFO - Inserted/Updated polygon for channel 1002, polygon 1 with 4 points
+2025-10-24 12:34:29,967 - INFO -   Processing file: polygon_2.txt
+2025-10-24 12:34:29,968 - INFO - Inserted/Updated polygon for channel 1002, polygon 2 with 4 points
+2025-10-24 12:34:29,968 - INFO -   Processing file: polygon_3.txt
+2025-10-24 12:34:29,969 - INFO - Inserted/Updated polygon for channel 1002, polygon 3 with 4 points
+2025-10-24 12:34:29,969 - INFO - Processing folder: channel2002
+2025-10-24 12:34:29,969 - INFO -   Processing file: polygon_20.txt
+2025-10-24 12:34:29,970 - INFO - Inserted/Updated polygon for channel 2002, polygon 20 with 6 points
+2025-10-24 12:34:29,970 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,970 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,970 - INFO -   Processing file: polygon_22.txt
+2025-10-24 12:34:29,970 - INFO - Inserted/Updated polygon for channel 2002, polygon 22 with 5 points
+2025-10-24 12:34:29,970 - INFO -   Processing file: polygon_17.txt
+2025-10-24 12:34:29,971 - INFO - Inserted/Updated polygon for channel 2002, polygon 17 with 4 points
+2025-10-24 12:34:29,971 - INFO -   Processing file: polygon_26.txt
+2025-10-24 12:34:29,972 - INFO - Inserted/Updated polygon for channel 2002, polygon 26 with 6 points
+2025-10-24 12:34:29,972 - INFO -   Processing file: polygon_18.txt
+2025-10-24 12:34:29,973 - INFO - Inserted/Updated polygon for channel 2002, polygon 18 with 6 points
+2025-10-24 12:34:29,973 - INFO -   Processing file: polygon_19.txt
+2025-10-24 12:34:29,973 - INFO - Inserted/Updated polygon for channel 2002, polygon 19 with 5 points
+2025-10-24 12:34:29,974 - INFO - Processing folder: channel1402
+2025-10-24 12:34:29,974 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,974 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,974 - INFO -   Processing file: polygon_9.txt
+2025-10-24 12:34:29,974 - INFO - Inserted/Updated polygon for channel 1402, polygon 9 with 5 points
+2025-10-24 12:34:29,974 - INFO -   Processing file: polygon_13.txt
+2025-10-24 12:34:29,975 - INFO - Inserted/Updated polygon for channel 1402, polygon 13 with 4 points
+2025-10-24 12:34:29,975 - INFO -   Processing file: polygon_11.txt
+2025-10-24 12:34:29,976 - INFO - Inserted/Updated polygon for channel 1402, polygon 11 with 6 points
+2025-10-24 12:34:29,976 - INFO -   Processing file: polygon_14.txt
+2025-10-24 12:34:29,977 - INFO - Inserted/Updated polygon for channel 1402, polygon 14 with 4 points
+2025-10-24 12:34:29,977 - INFO -   Processing file: polygon_10.txt
+2025-10-24 12:34:29,978 - INFO - Inserted/Updated polygon for channel 1402, polygon 10 with 6 points
+2025-10-24 12:34:29,978 - INFO - Processing folder: channel1102
+2025-10-24 12:34:29,978 - INFO -   Processing file: polygon_15.txt
+2025-10-24 12:34:29,979 - INFO - Inserted/Updated polygon for channel 1102, polygon 15 with 5 points
+2025-10-24 12:34:29,979 - INFO -   Processing file: polygon_7.txt
+2025-10-24 12:34:29,979 - INFO - Inserted/Updated polygon for channel 1102, polygon 7 with 4 points
+2025-10-24 12:34:29,979 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,979 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,979 - INFO -   Processing file: polygon_8.txt
+2025-10-24 12:34:29,980 - INFO - Inserted/Updated polygon for channel 1102, polygon 8 with 6 points
+2025-10-24 12:34:29,980 - INFO -   Processing file: polygon_13.txt
+2025-10-24 12:34:29,981 - INFO - Inserted/Updated polygon for channel 1102, polygon 13 with 5 points
+2025-10-24 12:34:29,981 - INFO -   Processing file: polygon_11.txt
+2025-10-24 12:34:29,982 - INFO - Inserted/Updated polygon for channel 1102, polygon 11 with 4 points
+2025-10-24 12:34:29,982 - INFO -   Processing file: polygon_6.txt
+2025-10-24 12:34:29,983 - INFO - Inserted/Updated polygon for channel 1102, polygon 6 with 4 points
+2025-10-24 12:34:29,983 - INFO -   Processing file: polygon_14.txt
+2025-10-24 12:34:29,983 - INFO - Inserted/Updated polygon for channel 1102, polygon 14 with 4 points
+2025-10-24 12:34:29,984 - INFO -   Processing file: polygon_10.txt
+2025-10-24 12:34:29,984 - INFO - Inserted/Updated polygon for channel 1102, polygon 10 with 4 points
+2025-10-24 12:34:29,984 - INFO -   Processing file: polygon_12.txt
+2025-10-24 12:34:29,985 - INFO - Inserted/Updated polygon for channel 1102, polygon 12 with 4 points
+2025-10-24 12:34:29,985 - INFO - Processing folder: channel1302
+2025-10-24 12:34:29,985 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,985 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,985 - INFO -   Processing file: polygon_8.txt
+2025-10-24 12:34:29,986 - INFO - Inserted/Updated polygon for channel 1302, polygon 8 with 4 points
+2025-10-24 12:34:29,986 - INFO - Processing folder: channel902
+2025-10-24 12:34:29,986 - INFO -   Processing file: polygon_5.txt
+2025-10-24 12:34:29,987 - INFO - Inserted/Updated polygon for channel 902, polygon 5 with 6 points
+2025-10-24 12:34:29,987 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,987 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,987 - INFO -   Processing file: polygon_3.txt
+2025-10-24 12:34:29,988 - INFO - Inserted/Updated polygon for channel 902, polygon 3 with 5 points
+2025-10-24 12:34:29,988 - INFO - Processing folder: channel1902
+2025-10-24 12:34:29,988 - INFO -   Processing file: polygon_35.txt
+2025-10-24 12:34:29,988 - INFO - Inserted/Updated polygon for channel 1902, polygon 35 with 6 points
+2025-10-24 12:34:29,988 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,988 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,988 - INFO -   Processing file: polygon_38.txt
+2025-10-24 12:34:29,989 - INFO - Inserted/Updated polygon for channel 1902, polygon 38 with 5 points
+2025-10-24 12:34:29,989 - INFO -   Processing file: polygon_34.txt
+2025-10-24 12:34:29,990 - INFO - Inserted/Updated polygon for channel 1902, polygon 34 with 6 points
+2025-10-24 12:34:29,990 - INFO -   Processing file: polygon_39.txt
+2025-10-24 12:34:29,991 - INFO - Inserted/Updated polygon for channel 1902, polygon 39 with 4 points
+2025-10-24 12:34:29,991 - INFO -   Processing file: polygon_36.txt
+2025-10-24 12:34:29,992 - INFO - Inserted/Updated polygon for channel 1902, polygon 36 with 6 points
+2025-10-24 12:34:29,992 - INFO -   Processing file: polygon_37.txt
+2025-10-24 12:34:29,993 - INFO - Inserted/Updated polygon for channel 1902, polygon 37 with 6 points
+2025-10-24 12:34:29,993 - INFO - Processing folder: channel1702
+2025-10-24 12:34:29,993 - INFO -   Processing file: polygon_35.txt
+2025-10-24 12:34:29,993 - INFO - Inserted/Updated polygon for channel 1702, polygon 35 with 5 points
+2025-10-24 12:34:29,993 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,993 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,993 - INFO -   Processing file: polygon_38.txt
+2025-10-24 12:34:29,994 - INFO - Inserted/Updated polygon for channel 1702, polygon 38 with 6 points
+2025-10-24 12:34:29,994 - INFO -   Processing file: polygon_34.txt
+2025-10-24 12:34:29,995 - INFO - Inserted/Updated polygon for channel 1702, polygon 34 with 6 points
+2025-10-24 12:34:29,995 - INFO -   Processing file: polygon_36.txt
+2025-10-24 12:34:29,996 - INFO - Inserted/Updated polygon for channel 1702, polygon 36 with 6 points
+2025-10-24 12:34:29,996 - INFO -   Processing file: polygon_37.txt
+2025-10-24 12:34:29,996 - INFO - Inserted/Updated polygon for channel 1702, polygon 37 with 6 points
+2025-10-24 12:34:29,997 - INFO - Processing folder: channel1202
+2025-10-24 12:34:29,997 - INFO -   Processing file: polygon_summary.txt
+2025-10-24 12:34:29,997 - WARNING - Could not extract polygon ID from polygon_summary.txt
+2025-10-24 12:34:29,997 - INFO -   Processing file: polygon_9.txt
+2025-10-24 12:34:29,997 - INFO - Inserted/Updated polygon for channel 1202, polygon 9 with 5 points
+2025-10-24 12:34:29,997 - INFO -   Processing file: polygon_13.txt
+2025-10-24 12:34:29,998 - INFO - Inserted/Updated polygon for channel 1202, polygon 13 with 5 points
+2025-10-24 12:34:29,998 - INFO -   Processing file: polygon_11.txt
+2025-10-24 12:34:29,999 - INFO - Inserted/Updated polygon for channel 1202, polygon 11 with 5 points
+2025-10-24 12:34:29,999 - INFO -   Processing file: polygon_10.txt
+2025-10-24 12:34:30,000 - INFO - Inserted/Updated polygon for channel 1202, polygon 10 with 6 points
+2025-10-24 12:34:30,000 - INFO - Processing complete. Processed 59 polygons.
+2025-10-24 12:34:30,000 - INFO - Processing complete for roi_table_polygons_temp! Final statistics:
+2025-10-24 12:34:30,000 - INFO - ROI Database Statistics for roi_table_polygons_temp:
+2025-10-24 12:34:30,000 - INFO -   Total polygons: 59
+2025-10-24 12:34:30,000 - INFO -   Unique channels: 13
+2025-10-24 12:34:30,000 - INFO -   Avg points per polygon: 4.9
+2025-10-24 12:34:30,000 - INFO -   Point count range: 4 - 6
+2025-10-24 12:34:30,001 - INFO - Channel distribution:
+2025-10-24 12:34:30,001 - INFO -   Channel 102: 1 polygons, avg 4.0 points
+2025-10-24 12:34:30,001 - INFO -   Channel 802: 6 polygons, avg 5.2 points
+2025-10-24 12:34:30,001 - INFO -   Channel 902: 2 polygons, avg 5.5 points
+2025-10-24 12:34:30,001 - INFO -   Channel 1002: 3 polygons, avg 4.0 points
+2025-10-24 12:34:30,001 - INFO -   Channel 1102: 9 polygons, avg 4.4 points
+2025-10-24 12:34:30,001 - INFO -   Channel 1202: 4 polygons, avg 5.2 points
+2025-10-24 12:34:30,001 - INFO -   Channel 1302: 1 polygons, avg 4.0 points
+2025-10-24 12:34:30,001 - INFO -   Channel 1402: 5 polygons, avg 5.0 points
+2025-10-24 12:34:30,001 - INFO -   Channel 1702: 5 polygons, avg 5.8 points
+2025-10-24 12:34:30,001 - INFO -   Channel 1802: 4 polygons, avg 4.8 points
+2025-10-24 12:34:30,001 - INFO -   Channel 1902: 6 polygons, avg 5.5 points
+2025-10-24 12:34:30,001 - INFO -   Channel 2002: 6 polygons, avg 5.3 points
+2025-10-24 12:34:30,001 - INFO -   Channel 2202: 7 polygons, avg 4.4 points
+2025-10-24 12:34:30,001 - INFO - Example from roi_table_polygons_temp - Channel 102, Polygon 9: 4 points, first point: (0.9172, 0.1615)
+2025-10-24 12:34:30,001 - INFO - 
+Processing Section-wise ROI polygons (temporary staging)
+2025-10-24 12:34:30,002 - INFO - ----------------------------------------
+2025-10-24 12:34:30,011 - INFO - Successfully executed: dropping table roi_section_polygons_temp
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:31: SAWarning: This declarative base already contains a class with the same class name and module name as __main__.RoiPolygonDynamic, and will be replaced in the string-lookup table.
+  class RoiPolygonDynamic(Base):
+2025-10-24 12:34:30,027 - INFO - Created table roi_section_polygons_temp
+2025-10-24 12:34:30,027 - INFO - Processing ROI files from: /home/aabadmin/db_postgres/P_Section_ROI_blr_boommachandra_2 -> roi_section_polygons_temp
+2025-10-24 12:34:30,027 - INFO - Found 22 polygon folders in /home/aabadmin/db_postgres/P_Section_ROI_blr_boommachandra_2
+2025-10-24 12:34:30,027 - INFO - Processing folder: channel102
+2025-10-24 12:34:30,027 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,029 - INFO - Inserted/Updated polygon for channel 102, polygon 1 with 5 points
+2025-10-24 12:34:30,029 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,029 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,029 - INFO - Processing folder: channel1102
+2025-10-24 12:34:30,029 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,030 - INFO - Inserted/Updated polygon for channel 1102, polygon 1 with 6 points
+2025-10-24 12:34:30,030 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,030 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,030 - INFO - Processing folder: channel1302
+2025-10-24 12:34:30,030 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,031 - INFO - Inserted/Updated polygon for channel 1302, polygon 1 with 6 points
+2025-10-24 12:34:30,031 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,031 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,031 - INFO - Processing folder: channel1402
+2025-10-24 12:34:30,031 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,032 - INFO - Inserted/Updated polygon for channel 1402, polygon 1 with 6 points
+2025-10-24 12:34:30,032 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,032 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,032 - INFO - Processing folder: channel1502
+2025-10-24 12:34:30,032 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,033 - INFO - Inserted/Updated polygon for channel 1502, polygon 1 with 5 points
+2025-10-24 12:34:30,033 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,033 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,033 - INFO - Processing folder: channel1702
+2025-10-24 12:34:30,033 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,034 - INFO - Inserted/Updated polygon for channel 1702, polygon 1 with 4 points
+2025-10-24 12:34:30,034 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,034 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,034 - INFO - Processing folder: channel1802
+2025-10-24 12:34:30,034 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,035 - INFO - Inserted/Updated polygon for channel 1802, polygon 1 with 7 points
+2025-10-24 12:34:30,035 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,035 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,035 - INFO - Processing folder: channel1902
+2025-10-24 12:34:30,035 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,035 - INFO - Inserted/Updated polygon for channel 1902, polygon 1 with 5 points
+2025-10-24 12:34:30,036 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,036 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,036 - INFO - Processing folder: channel2002
+2025-10-24 12:34:30,036 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,036 - INFO - Inserted/Updated polygon for channel 2002, polygon 1 with 6 points
+2025-10-24 12:34:30,036 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,036 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,036 - INFO - Processing folder: channel202
+2025-10-24 12:34:30,037 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,037 - INFO - Inserted/Updated polygon for channel 202, polygon 1 with 5 points
+2025-10-24 12:34:30,037 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,037 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,037 - INFO - Processing folder: channel2102
+2025-10-24 12:34:30,037 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,038 - INFO - Inserted/Updated polygon for channel 2102, polygon 1 with 6 points
+2025-10-24 12:34:30,038 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,038 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,038 - INFO - Processing folder: channel2202
+2025-10-24 12:34:30,038 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,039 - INFO - Inserted/Updated polygon for channel 2202, polygon 1 with 6 points
+2025-10-24 12:34:30,039 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,039 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,039 - INFO - Processing folder: channel2602
+2025-10-24 12:34:30,039 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,040 - INFO - Inserted/Updated polygon for channel 2602, polygon 1 with 4 points
+2025-10-24 12:34:30,040 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,040 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,040 - INFO - Processing folder: channel2702
+2025-10-24 12:34:30,040 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,041 - INFO - Inserted/Updated polygon for channel 2702, polygon 1 with 5 points
+2025-10-24 12:34:30,041 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,041 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,041 - INFO - Processing folder: channel3002
+2025-10-24 12:34:30,041 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,042 - INFO - Inserted/Updated polygon for channel 3002, polygon 1 with 4 points
+2025-10-24 12:34:30,042 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,042 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,042 - INFO - Processing folder: channel302
+2025-10-24 12:34:30,042 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,043 - INFO - Inserted/Updated polygon for channel 302, polygon 1 with 6 points
+2025-10-24 12:34:30,043 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,043 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,043 - INFO - Processing folder: channel3202
+2025-10-24 12:34:30,043 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,043 - INFO - Inserted/Updated polygon for channel 3202, polygon 1 with 6 points
+2025-10-24 12:34:30,043 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,043 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,043 - INFO - Processing folder: channel402
+2025-10-24 12:34:30,044 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,044 - INFO - Inserted/Updated polygon for channel 402, polygon 1 with 5 points
+2025-10-24 12:34:30,044 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,044 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,044 - INFO - Processing folder: channel502
+2025-10-24 12:34:30,045 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,045 - INFO - Inserted/Updated polygon for channel 502, polygon 1 with 6 points
+2025-10-24 12:34:30,045 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,045 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,045 - INFO - Processing folder: channel602
+2025-10-24 12:34:30,045 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,046 - INFO - Inserted/Updated polygon for channel 602, polygon 1 with 5 points
+2025-10-24 12:34:30,046 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,046 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,046 - INFO - Processing folder: channel702
+2025-10-24 12:34:30,046 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,047 - INFO - Inserted/Updated polygon for channel 702, polygon 1 with 4 points
+2025-10-24 12:34:30,047 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,047 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,047 - INFO - Processing folder: channel902
+2025-10-24 12:34:30,047 - INFO -   Processing file: polygon_1_points.txt
+2025-10-24 12:34:30,048 - INFO - Inserted/Updated polygon for channel 902, polygon 1 with 5 points
+2025-10-24 12:34:30,048 - INFO -   Processing file: polygon_summary_points.txt
+2025-10-24 12:34:30,048 - WARNING - Could not extract polygon ID from polygon_summary_points.txt
+2025-10-24 12:34:30,048 - INFO - Processing complete. Processed 22 polygons.
+2025-10-24 12:34:30,048 - INFO - Processing complete for roi_section_polygons_temp! Final statistics:
+2025-10-24 12:34:30,048 - INFO - ROI Database Statistics for roi_section_polygons_temp:
+2025-10-24 12:34:30,048 - INFO -   Total polygons: 22
+2025-10-24 12:34:30,049 - INFO -   Unique channels: 22
+2025-10-24 12:34:30,049 - INFO -   Avg points per polygon: 5.3
+2025-10-24 12:34:30,049 - INFO -   Point count range: 4 - 7
+2025-10-24 12:34:30,049 - INFO - Channel distribution:
+2025-10-24 12:34:30,049 - INFO -   Channel 102: 1 polygons, avg 5.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 202: 1 polygons, avg 5.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 302: 1 polygons, avg 6.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 402: 1 polygons, avg 5.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 502: 1 polygons, avg 6.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 602: 1 polygons, avg 5.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 702: 1 polygons, avg 4.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 902: 1 polygons, avg 5.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 1102: 1 polygons, avg 6.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 1302: 1 polygons, avg 6.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 1402: 1 polygons, avg 6.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 1502: 1 polygons, avg 5.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 1702: 1 polygons, avg 4.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 1802: 1 polygons, avg 7.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 1902: 1 polygons, avg 5.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 2002: 1 polygons, avg 6.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 2102: 1 polygons, avg 6.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 2202: 1 polygons, avg 6.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 2602: 1 polygons, avg 4.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 2702: 1 polygons, avg 5.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 3002: 1 polygons, avg 4.0 points
+2025-10-24 12:34:30,049 - INFO -   Channel 3202: 1 polygons, avg 6.0 points
+2025-10-24 12:34:30,049 - INFO - Example from roi_section_polygons_temp - Channel 102, Polygon 1: 5 points, first point: (0.9875, 0.5703)
+2025-10-24 12:34:30,050 - INFO - 
+============================================================
+2025-10-24 12:34:30,050 - INFO - STEP 2: Creating polygon_points table
+2025-10-24 12:34:30,050 - INFO - ============================================================
+2025-10-24 12:34:30,061 - INFO - Successfully executed: creating polygon_points table
+2025-10-24 12:34:30,061 - INFO - Created/verified polygon_points table with indexes
+2025-10-24 12:34:30,061 - INFO - 
+============================================================
+2025-10-24 12:34:30,061 - INFO - STEP 3: Converting intermediate tables to polygon_points table
+2025-10-24 12:34:30,061 - INFO - ============================================================
+2025-10-24 12:34:30,061 - INFO - 
+Converting Table ROI polygons (temporary staging) to polygon_points table
+2025-10-24 12:34:30,061 - INFO - --------------------------------------------------
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column 'geom'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p8'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p10'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '202_p11'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '602_p3'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '602_p4'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '702_p4'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '702_p5'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p10'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1202_p11'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1302_p10'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '1302_p11'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p7'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p8'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p12'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2002_p13'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2102_p1'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2102_p2'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p5'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p6'
+  metadata.reflect(bind=engine)
+/home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py:531: SAWarning: Did not recognize type 'geometry' of column '2202_p7'
+  metadata.reflect(bind=engine)
+2025-10-24 12:34:30,130 - INFO - Converting data from roi_table_polygons_temp to polygon_points table...
+2025-10-24 12:34:30,148 - INFO - Inserted/Updated 292 rows from roi_table_polygons_temp into 'polygon_points' table.
+2025-10-24 12:34:30,148 - INFO - 
+Converting Section-wise ROI polygons (temporary staging) to polygon_points table
+2025-10-24 12:34:30,148 - INFO - --------------------------------------------------
+2025-10-24 12:34:30,200 - INFO - Converting data from roi_section_polygons_temp to polygon_points table...
+2025-10-24 12:34:30,210 - INFO - Inserted/Updated 117 rows from roi_section_polygons_temp into 'polygon_points' table.
+2025-10-24 12:34:30,210 - INFO - 
+============================================================
+2025-10-24 12:34:30,210 - INFO - STEP 4: Creating ROI geometry tables from staging data
+2025-10-24 12:34:30,210 - INFO - ============================================================
+2025-10-24 12:34:30,210 - INFO - 
+Creating geometry table for Table ROI polygons (temporary staging)
+2025-10-24 12:34:30,210 - INFO - Source: roi_table_polygons_temp -> Target: roi_table_polygons_geometries_blr_boommachandra_2
+2025-10-24 12:34:30,210 - INFO - --------------------------------------------------
+2025-10-24 12:34:30,222 - INFO - Successfully executed: creating temporary points table: roi_table_polygons_points_temp
+2025-10-24 12:34:30,236 - INFO - Successfully executed: creating geometry table roi_table_polygons_geometries_blr_boommachandra_2
+2025-10-24 12:34:30,237 - INFO - ✅ Table '"roi_table_polygons_geometries_blr_boommachandra_2"' created successfully!
+2025-10-24 12:34:30,237 - INFO -    - Total polygon geometries: 59
+2025-10-24 12:34:30,237 - INFO -    - Unique channels: 13
+2025-10-24 12:34:30,239 - INFO - Successfully executed: cleaning up temporary table: roi_table_polygons_points_temp
+2025-10-24 12:34:30,270 - INFO - 
+Creating geometry table for Section-wise ROI polygons (temporary staging)
+2025-10-24 12:34:30,270 - INFO - Source: roi_section_polygons_temp -> Target: roi_section_polygons_geometries_blr_boommachandra_2
+2025-10-24 12:34:30,270 - INFO - --------------------------------------------------
+2025-10-24 12:34:30,282 - INFO - Successfully executed: creating temporary points table: roi_section_polygons_points_temp
+2025-10-24 12:34:30,295 - INFO - Successfully executed: creating geometry table roi_section_polygons_geometries_blr_boommachandra_2
+2025-10-24 12:34:30,296 - INFO - ✅ Table '"roi_section_polygons_geometries_blr_boommachandra_2"' created successfully!
+2025-10-24 12:34:30,296 - INFO -    - Total polygon geometries: 22
+2025-10-24 12:34:30,296 - INFO -    - Unique channels: 22
+2025-10-24 12:34:30,298 - INFO - Successfully executed: cleaning up temporary table: roi_section_polygons_points_temp
+2025-10-24 12:34:30,328 - INFO - 
+============================================================
+2025-10-24 12:34:30,328 - INFO - STEP 5: Creating ROI geometry matrix table (Table ROI only)
+2025-10-24 12:34:30,328 - INFO - ============================================================
+2025-10-24 12:34:30,328 - INFO - 
+Creating matrix table for Table ROI polygons
+2025-10-24 12:34:30,328 - INFO - Source: roi_table_polygons_geometries_blr_boommachandra_2 -> Target: roi_table_polygons_matrix_blr_boommachandra_2
+2025-10-24 12:34:30,328 - INFO - --------------------------------------------------
+2025-10-24 12:34:30,339 - INFO - Creating matrix table roi_table_polygons_matrix_blr_boommachandra_2 from roi_table_polygons_geometries_blr_boommachandra_2...
+2025-10-24 12:34:30,339 - INFO - Found 59 unique channel-polygon pairs
+2025-10-24 12:34:30,346 - INFO - ✅ Matrix table '"roi_table_polygons_matrix_blr_boommachandra_2"' created successfully!
+2025-10-24 12:34:30,346 - INFO -    - Total rows (channels): 13
+2025-10-24 12:34:30,346 - INFO -    - Total columns (polygons): 59
+2025-10-24 12:34:30,346 - INFO - 
+============================================================
+2025-10-24 12:34:30,346 - INFO - STEP 7: Converting channel_id columns to text format
+2025-10-24 12:34:30,346 - INFO - ============================================================
+2025-10-24 12:34:30,346 - INFO - Converting channel_id columns to text format with 'channel' prefix
+2025-10-24 12:34:30,346 - INFO - Tables to process: ['polygon_points', 'roi_table_polygons_geometries_blr_boommachandra_2', 'roi_section_polygons_geometries_blr_boommachandra_2', 'roi_table_polygons_matrix_blr_boommachandra_2']
+2025-10-24 12:34:30,346 - INFO - --------------------------------------------------
+2025-10-24 12:34:30,347 - INFO - Starting channel_id conversion to text format...
+2025-10-24 12:34:30,347 - INFO - Converting channel_id in table: polygon_points
+2025-10-24 12:34:30,405 - INFO -   ✅ Successfully converted polygon_points - Sample values: ['channel1002', 'channel102', 'channel1102', 'channel1202', 'channel1302']
+2025-10-24 12:34:30,405 - INFO - Converting channel_id in table: roi_table_polygons_geometries_blr_boommachandra_2
+2025-10-24 12:34:30,441 - INFO -   ✅ Successfully converted roi_table_polygons_geometries_blr_boommachandra_2 - Sample values: ['channel1002', 'channel102', 'channel1102', 'channel1202', 'channel1302']
+2025-10-24 12:34:30,442 - INFO - Converting channel_id in table: roi_section_polygons_geometries_blr_boommachandra_2
+2025-10-24 12:34:30,475 - INFO -   ✅ Successfully converted roi_section_polygons_geometries_blr_boommachandra_2 - Sample values: ['channel102', 'channel1102', 'channel1302', 'channel1402', 'channel1502']
+2025-10-24 12:34:30,475 - INFO - Converting channel_id in table: roi_table_polygons_matrix_blr_boommachandra_2
+2025-10-24 12:34:30,507 - INFO -   ✅ Successfully converted roi_table_polygons_matrix_blr_boommachandra_2 - Sample values: ['channel1002', 'channel102', 'channel1102', 'channel1202', 'channel1302']
+2025-10-24 12:34:30,507 - INFO - Channel ID conversion to text format completed!
+2025-10-24 12:34:30,507 - INFO - 
+============================================================
+2025-10-24 12:34:30,507 - INFO - PROCESSING COMPLETE!
+2025-10-24 12:34:30,507 - INFO - ============================================================
+2025-10-24 12:34:30,507 - INFO - Created temporary staging tables:
+2025-10-24 12:34:30,507 - INFO -   - roi_table_polygons_temp (Table ROI polygons (temporary staging))
+2025-10-24 12:34:30,507 - INFO -   - roi_section_polygons_temp (Section-wise ROI polygons (temporary staging))
+2025-10-24 12:34:30,507 - INFO - Converted all data to final 'polygon_points' table
+2025-10-24 12:34:30,507 - INFO - Created ROI geometry tables:
+2025-10-24 12:34:30,507 - INFO -   - roi_table_polygons_geometries_blr_boommachandra_2 (from roi_table_polygons_temp)
+2025-10-24 12:34:30,507 - INFO -   - roi_section_polygons_geometries_blr_boommachandra_2 (from roi_section_polygons_temp)
+2025-10-24 12:34:30,507 - INFO - Created matrix table: roi_table_polygons_matrix_blr_boommachandra_2 (from roi_table_polygons_geometries_blr_boommachandra_2)
+2025-10-24 12:34:30,517 - INFO - 
+Final polygon_points Table Statistics:
+2025-10-24 12:34:30,517 - INFO -   Total points: 409
+2025-10-24 12:34:30,517 - INFO -   Unique channels: 25
+2025-10-24 12:34:30,517 - INFO -   Unique polygons: 36
+2025-10-24 12:34:30,518 - INFO - 
+roi_table_polygons_geometries_blr_boommachandra_2 Statistics:
+2025-10-24 12:34:30,518 - INFO -   Total geometries: 59
+2025-10-24 12:34:30,518 - INFO -   Unique channels: 13
+2025-10-24 12:34:30,518 - INFO - 
+roi_section_polygons_geometries_blr_boommachandra_2 Statistics:
+2025-10-24 12:34:30,518 - INFO -   Total geometries: 22
+2025-10-24 12:34:30,518 - INFO -   Unique channels: 22
+2025-10-24 12:34:30,518 - INFO - 
+roi_table_polygons_matrix_blr_boommachandra_2 Statistics:
+2025-10-24 12:34:30,518 - INFO -   Total rows (channels): 13
+2025-10-24 12:34:30,522 - INFO -   Total columns (polygons): 60
+2025-10-24 12:34:30,522 - INFO -   Matrix dimensions: 13 x 60
+2025-10-24 12:34:30,522 - INFO - 
+============================================================
+2025-10-24 12:34:30,522 - INFO - STEP 9: Cleaning up temporary tables
+2025-10-24 12:34:30,522 - INFO - ============================================================
+2025-10-24 12:34:30,522 - INFO - Keeping final tables: ['roi_table_polygons_matrix_blr_boommachandra_2', 'roi_section_polygons_geometries']
+2025-10-24 12:34:30,522 - INFO - Dropping temporary tables: ['polygon_points', 'roi_table_polygons_temp', 'roi_table_polygons_geometries_blr_boommachandra_2', 'roi_section_polygons_temp']
+2025-10-24 12:34:30,522 - INFO - --------------------------------------------------
+2025-10-24 12:34:30,532 - INFO - Successfully executed: dropping temporary table: polygon_points
+2025-10-24 12:34:30,571 - INFO -   ✅ Dropped temporary table: polygon_points
+2025-10-24 12:34:30,573 - INFO - Successfully executed: dropping temporary table: roi_table_polygons_temp
+2025-10-24 12:34:30,609 - INFO -   ✅ Dropped temporary table: roi_table_polygons_temp
+2025-10-24 12:34:30,610 - INFO - Successfully executed: dropping temporary table: roi_table_polygons_geometries_blr_boommachandra_2
+2025-10-24 12:34:30,641 - INFO -   ✅ Dropped temporary table: roi_table_polygons_geometries_blr_boommachandra_2
+2025-10-24 12:34:30,643 - INFO - Successfully executed: dropping temporary table: roi_section_polygons_temp
+2025-10-24 12:34:30,675 - INFO -   ✅ Dropped temporary table: roi_section_polygons_temp
+2025-10-24 12:34:30,675 - INFO - ✅ Cleanup completed! Only final tables remain.
+2025-10-24 12:34:30,675 - INFO - ============================================================
+Running one_shot_all_output_tables.py...
+Creating output tables for detection table: detections
+Configured table pairs: {'roi_table_polygons_matrix_blr_boommachandra_2': 'detections_in_table_blr_boommachandra_2', 'roi_table_polygons_matrix_scaled_blr_boommachandra_2': 'detections_in_table_scaled_blr_boommachandra_2', 'roi_section_polygons_geometries_blr_boommachandra_2': 'detections_in_section_blr_boommachandra_2'}
+============================================================
+Creating output table: detections_in_table_blr_boommachandra_2 (based on roi_table_polygons_matrix_blr_boommachandra_2)
+Found polygon columns: ['102_p9', '802_p10', '802_p11', '802_p13', '802_p14', '802_p15', '802_p16', '902_p3', '902_p5', '1002_p1', '1002_p2', '1002_p3', '1102_p6', '1102_p7', '1102_p8', '1102_p10', '1102_p11', '1102_p12', '1102_p13', '1102_p14', '1102_p15', '1202_p9', '1202_p10', '1202_p11', '1202_p13', '1302_p8', '1402_p9', '1402_p10', '1402_p11', '1402_p13', '1402_p14', '1702_p34', '1702_p35', '1702_p36', '1702_p37', '1702_p38', '1802_p23', '1802_p24', '1802_p28', '1802_p29', '1902_p34', '1902_p35', '1902_p36', '1902_p37', '1902_p38', '1902_p39', '2002_p17', '2002_p18', '2002_p19', '2002_p20', '2002_p22', '2002_p26', '2202_p21', '2202_p24', '2202_p29', '2202_p30', '2202_p31', '2202_p32', '2202_p33']
+✓ Created table: detections_in_table_blr_boommachandra_2
+✓ Converted to hypertable: detections_in_table_blr_boommachandra_2
+✓ Created indexes for: detections_in_table_blr_boommachandra_2
+✓ Completed table creation: detections_in_table_blr_boommachandra_2
+--------------------------------------------------
+Creating output table: detections_in_table_scaled_blr_boommachandra_2 (based on roi_table_polygons_matrix_scaled_blr_boommachandra_2)
+✗ Failed to create table: detections_in_table_scaled_blr_boommachandra_2
+  Error: 'roi_table_polygons_matrix_scaled_blr_boommachandra_2'
+--------------------------------------------------
+Creating output table: detections_in_section_blr_boommachandra_2 (based on roi_section_polygons_geometries_blr_boommachandra_2)
+Found polygon columns: ['geom']
+✓ Created table: detections_in_section_blr_boommachandra_2
+✓ Converted to hypertable: detections_in_section_blr_boommachandra_2
+✓ Created indexes for: detections_in_section_blr_boommachandra_2
+✓ Completed table creation: detections_in_section_blr_boommachandra_2
+--------------------------------------------------
+Table creation process completed!

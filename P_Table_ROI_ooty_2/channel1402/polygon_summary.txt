@@ -1,0 +1,68 @@
+Directory: ooty-2_channel1402 (Image #67)
+Timestamp: 20250923_180821
+Image Dimensions: 640x384
+Source Image: ooty-2_channel1402_summary.jpg
+Outlet: ooty-2
+Channel: 1402
+Image Path: /home/mayank/Downloads/summary_frames_a2b/ooty-2_channel1402_summary.jpg
+Unique Key: ooty-2_channel1402
+============================================================
+
+Total Polygons: 3
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 5
+Original Coordinates:
+  Point 1: (320, 118)
+  Point 2: (454, 89)
+  Point 3: (474, 151)
+  Point 4: (460, 178)
+  Point 5: (339, 187)
+Normalized Coordinates:
+  Point 1: (0.5, 0.3073)
+  Point 2: (0.7094, 0.2318)
+  Point 3: (0.7406, 0.3932)
+  Point 4: (0.7188, 0.4635)
+  Point 5: (0.5297, 0.487)
+
+----------------------------------------
+
+Polygon: polygon_2
+File: polygon_2.txt
+Points: 6
+Original Coordinates:
+  Point 1: (344, 193)
+  Point 2: (468, 180)
+  Point 3: (515, 177)
+  Point 4: (561, 218)
+  Point 5: (554, 284)
+  Point 6: (370, 285)
+Normalized Coordinates:
+  Point 1: (0.5375, 0.5026)
+  Point 2: (0.7312, 0.4688)
+  Point 3: (0.8047, 0.4609)
+  Point 4: (0.8766, 0.5677)
+  Point 5: (0.8656, 0.7396)
+  Point 6: (0.5781, 0.7422)
+
+----------------------------------------
+
+Polygon: polygon_3
+File: polygon_3.txt
+Points: 5
+Original Coordinates:
+  Point 1: (108, 161)
+  Point 2: (192, 152)
+  Point 3: (202, 245)
+  Point 4: (171, 283)
+  Point 5: (105, 285)
+Normalized Coordinates:
+  Point 1: (0.1688, 0.4193)
+  Point 2: (0.3, 0.3958)
+  Point 3: (0.3156, 0.638)
+  Point 4: (0.2672, 0.737)
+  Point 5: (0.1641, 0.7422)
+
+----------------------------------------
+

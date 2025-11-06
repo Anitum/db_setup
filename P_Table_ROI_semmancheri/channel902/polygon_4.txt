@@ -1,0 +1,5 @@
+Polygon 6 Points (original coordinates):
+Point 1: (1934, 636)
+Point 2: (2262, 654)
+Point 3: (2556, 1218)
+Point 4: (2282, 1288)

@@ -1,0 +1,7 @@
+Polygon 2 Points (original coordinates):
+Point 1: (468, 308)
+Point 2: (494, 516)
+Point 3: (690, 728)
+Point 4: (650, 436)
+Point 5: (966, 334)
+Point 6: (716, 230)

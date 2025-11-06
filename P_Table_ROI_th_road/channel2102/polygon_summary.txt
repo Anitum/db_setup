@@ -1,0 +1,44 @@
+Directory: th-road_channel2102 (Image #153)
+Timestamp: 20250923_190256
+Image Dimensions: 640x384
+Source Image: th-road_channel2102_summary.jpg
+Outlet: th-road
+Channel: 2102
+Image Path: /home/mayank/Downloads/summary_frames_a2b/th-road_channel2102_summary.jpg
+Unique Key: th-road_channel2102
+============================================================
+
+Total Polygons: 2
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 4
+Original Coordinates:
+  Point 1: (156, 109)
+  Point 2: (217, 117)
+  Point 3: (251, 86)
+  Point 4: (173, 79)
+Normalized Coordinates:
+  Point 1: (0.2437, 0.2839)
+  Point 2: (0.3391, 0.3047)
+  Point 3: (0.3922, 0.224)
+  Point 4: (0.2703, 0.2057)
+
+----------------------------------------
+
+Polygon: polygon_2
+File: polygon_2.txt
+Points: 4
+Original Coordinates:
+  Point 1: (179, 72)
+  Point 2: (245, 80)
+  Point 3: (272, 57)
+  Point 4: (212, 49)
+Normalized Coordinates:
+  Point 1: (0.2797, 0.1875)
+  Point 2: (0.3828, 0.2083)
+  Point 3: (0.425, 0.1484)
+  Point 4: (0.3312, 0.1276)
+
+----------------------------------------
+

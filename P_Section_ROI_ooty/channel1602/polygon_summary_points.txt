@@ -1,0 +1,28 @@
+Directory: ooty_channel1602 (Channel #13)
+Timestamp: 20250928_150508
+Image Dimensions: 640x384
+Source Image: overlaid_ooty_channel1602_1757682152.5698638.jpg
+Outlet: ooty
+Channel: 1602
+Image Path: /home/mayank/Downloads/Zayd/ooty/overlaid_ooty_channel1602_1757682152.5698638.jpg
+Unique Key: ooty_channel1602
+============================================================
+
+Total Polygons: 1
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 4
+Original Coordinates:
+  Point 1: (637, 377)
+  Point 2: (633, 3)
+  Point 3: (6, 2)
+  Point 4: (5, 379)
+Normalized Coordinates:
+  Point 1: (0.9953, 0.9818)
+  Point 2: (0.9891, 0.0078)
+  Point 3: (0.0094, 0.0052)
+  Point 4: (0.0078, 0.987)
+
+----------------------------------------
+

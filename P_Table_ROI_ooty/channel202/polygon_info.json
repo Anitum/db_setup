@@ -1,0 +1,494 @@
+{
+    "timestamp": "20250923_182306",
+    "image_index": 104,
+    "directory_name": "ooty_channel202",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "ooty_channel202_summary.jpg",
+        "full_path": "/home/mayank/Downloads/summary_frames_a2b/ooty_channel202_summary.jpg",
+        "outlet_name": "ooty",
+        "channel_number": "202",
+        "display_name": "ooty (Channel 202)",
+        "unique_key": "ooty_channel202"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "ooty_channel202/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    237,
+                    177
+                ],
+                [
+                    403,
+                    164
+                ],
+                [
+                    401,
+                    377
+                ],
+                [
+                    234,
+                    377
+                ],
+                [
+                    199,
+                    304
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.3703,
+                    0.4609
+                ],
+                [
+                    0.6297,
+                    0.4271
+                ],
+                [
+                    0.6266,
+                    0.9818
+                ],
+                [
+                    0.3656,
+                    0.9818
+                ],
+                [
+                    0.3109,
+                    0.7917
+                ]
+            ],
+            "point_count": 5
+        },
+        {
+            "polygon_id": 2,
+            "name": "polygon_2",
+            "filename": "polygon_2.txt",
+            "full_path": "ooty_channel202/polygon_2.txt",
+            "original_coordinates": [
+                [
+                    3,
+                    189
+                ],
+                [
+                    68,
+                    191
+                ],
+                [
+                    95,
+                    284
+                ],
+                [
+                    33,
+                    377
+                ],
+                [
+                    0,
+                    381
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.0047,
+                    0.4922
+                ],
+                [
+                    0.1062,
+                    0.4974
+                ],
+                [
+                    0.1484,
+                    0.7396
+                ],
+                [
+                    0.0516,
+                    0.9818
+                ],
+                [
+                    0.0,
+                    0.9922
+                ]
+            ],
+            "point_count": 5
+        },
+        {
+            "polygon_id": 3,
+            "name": "polygon_3",
+            "filename": "polygon_3.txt",
+            "full_path": "ooty_channel202/polygon_3.txt",
+            "original_coordinates": [
+                [
+                    4,
+                    169
+                ],
+                [
+                    90,
+                    112
+                ],
+                [
+                    146,
+                    106
+                ],
+                [
+                    150,
+                    179
+                ],
+                [
+                    115,
+                    240
+                ],
+                [
+                    96,
+                    161
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.0063,
+                    0.4401
+                ],
+                [
+                    0.1406,
+                    0.2917
+                ],
+                [
+                    0.2281,
+                    0.276
+                ],
+                [
+                    0.2344,
+                    0.4661
+                ],
+                [
+                    0.1797,
+                    0.625
+                ],
+                [
+                    0.15,
+                    0.4193
+                ]
+            ],
+            "point_count": 6
+        },
+        {
+            "polygon_id": 4,
+            "name": "polygon_4",
+            "filename": "polygon_4.txt",
+            "full_path": "ooty_channel202/polygon_4.txt",
+            "original_coordinates": [
+                [
+                    127,
+                    88
+                ],
+                [
+                    152,
+                    67
+                ],
+                [
+                    198,
+                    65
+                ],
+                [
+                    205,
+                    111
+                ],
+                [
+                    185,
+                    134
+                ],
+                [
+                    176,
+                    84
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.1984,
+                    0.2292
+                ],
+                [
+                    0.2375,
+                    0.1745
+                ],
+                [
+                    0.3094,
+                    0.1693
+                ],
+                [
+                    0.3203,
+                    0.2891
+                ],
+                [
+                    0.2891,
+                    0.349
+                ],
+                [
+                    0.275,
+                    0.2188
+                ]
+            ],
+            "point_count": 6
+        },
+        {
+            "polygon_id": 5,
+            "name": "polygon_5",
+            "filename": "polygon_5.txt",
+            "full_path": "ooty_channel202/polygon_5.txt",
+            "original_coordinates": [
+                [
+                    279,
+                    101
+                ],
+                [
+                    238,
+                    115
+                ],
+                [
+                    240,
+                    169
+                ],
+                [
+                    378,
+                    157
+                ],
+                [
+                    365,
+                    96
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.4359,
+                    0.263
+                ],
+                [
+                    0.3719,
+                    0.2995
+                ],
+                [
+                    0.375,
+                    0.4401
+                ],
+                [
+                    0.5906,
+                    0.4089
+                ],
+                [
+                    0.5703,
+                    0.25
+                ]
+            ],
+            "point_count": 5
+        },
+        {
+            "polygon_id": 6,
+            "name": "polygon_6",
+            "filename": "polygon_6.txt",
+            "full_path": "ooty_channel202/polygon_6.txt",
+            "original_coordinates": [
+                [
+                    289,
+                    60
+                ],
+                [
+                    342,
+                    56
+                ],
+                [
+                    355,
+                    92
+                ],
+                [
+                    283,
+                    97
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.4516,
+                    0.1562
+                ],
+                [
+                    0.5344,
+                    0.1458
+                ],
+                [
+                    0.5547,
+                    0.2396
+                ],
+                [
+                    0.4422,
+                    0.2526
+                ]
+            ],
+            "point_count": 4
+        },
+        {
+            "polygon_id": 7,
+            "name": "polygon_7",
+            "filename": "polygon_7.txt",
+            "full_path": "ooty_channel202/polygon_7.txt",
+            "original_coordinates": [
+                [
+                    519,
+                    171
+                ],
+                [
+                    621,
+                    158
+                ],
+                [
+                    639,
+                    380
+                ],
+                [
+                    539,
+                    353
+                ],
+                [
+                    502,
+                    266
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.8109,
+                    0.4453
+                ],
+                [
+                    0.9703,
+                    0.4115
+                ],
+                [
+                    0.9984,
+                    0.9896
+                ],
+                [
+                    0.8422,
+                    0.9193
+                ],
+                [
+                    0.7844,
+                    0.6927
+                ]
+            ],
+            "point_count": 5
+        },
+        {
+            "polygon_id": 8,
+            "name": "polygon_8",
+            "filename": "polygon_8.txt",
+            "full_path": "ooty_channel202/polygon_8.txt",
+            "original_coordinates": [
+                [
+                    452,
+                    99
+                ],
+                [
+                    544,
+                    99
+                ],
+                [
+                    602,
+                    149
+                ],
+                [
+                    515,
+                    163
+                ],
+                [
+                    497,
+                    234
+                ],
+                [
+                    446,
+                    175
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.7063,
+                    0.2578
+                ],
+                [
+                    0.85,
+                    0.2578
+                ],
+                [
+                    0.9406,
+                    0.388
+                ],
+                [
+                    0.8047,
+                    0.4245
+                ],
+                [
+                    0.7766,
+                    0.6094
+                ],
+                [
+                    0.6969,
+                    0.4557
+                ]
+            ],
+            "point_count": 6
+        },
+        {
+            "polygon_id": 9,
+            "name": "polygon_9",
+            "filename": "polygon_9.txt",
+            "full_path": "ooty_channel202/polygon_9.txt",
+            "original_coordinates": [
+                [
+                    394,
+                    44
+                ],
+                [
+                    461,
+                    42
+                ],
+                [
+                    512,
+                    88
+                ],
+                [
+                    425,
+                    96
+                ],
+                [
+                    397,
+                    97
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.6156,
+                    0.1146
+                ],
+                [
+                    0.7203,
+                    0.1094
+                ],
+                [
+                    0.8,
+                    0.2292
+                ],
+                [
+                    0.6641,
+                    0.25
+                ],
+                [
+                    0.6203,
+                    0.2526
+                ]
+            ],
+            "point_count": 5
+        }
+    ]
+}

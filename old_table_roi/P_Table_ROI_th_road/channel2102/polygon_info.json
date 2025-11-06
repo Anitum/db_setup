@@ -1,0 +1,105 @@
+{
+    "timestamp": "20250923_190256",
+    "image_index": 153,
+    "directory_name": "th-road_channel2102",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "th-road_channel2102_summary.jpg",
+        "full_path": "/home/mayank/Downloads/summary_frames_a2b/th-road_channel2102_summary.jpg",
+        "outlet_name": "th-road",
+        "channel_number": "2102",
+        "display_name": "th-road (Channel 2102)",
+        "unique_key": "th-road_channel2102"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "th-road_channel2102/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    156,
+                    109
+                ],
+                [
+                    217,
+                    117
+                ],
+                [
+                    251,
+                    86
+                ],
+                [
+                    173,
+                    79
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.2437,
+                    0.2839
+                ],
+                [
+                    0.3391,
+                    0.3047
+                ],
+                [
+                    0.3922,
+                    0.224
+                ],
+                [
+                    0.2703,
+                    0.2057
+                ]
+            ],
+            "point_count": 4
+        },
+        {
+            "polygon_id": 2,
+            "name": "polygon_2",
+            "filename": "polygon_2.txt",
+            "full_path": "th-road_channel2102/polygon_2.txt",
+            "original_coordinates": [
+                [
+                    179,
+                    72
+                ],
+                [
+                    245,
+                    80
+                ],
+                [
+                    272,
+                    57
+                ],
+                [
+                    212,
+                    49
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.2797,
+                    0.1875
+                ],
+                [
+                    0.3828,
+                    0.2083
+                ],
+                [
+                    0.425,
+                    0.1484
+                ],
+                [
+                    0.3312,
+                    0.1276
+                ]
+            ],
+            "point_count": 4
+        }
+    ]
+}

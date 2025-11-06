@@ -1,0 +1,50 @@
+Directory: semmancheri_channel1302 (Image #124)
+Timestamp: 20250923_183016
+Image Dimensions: 640x384
+Source Image: semmancheri_channel1302_summary.jpg
+Outlet: semmancheri
+Channel: 1302
+Image Path: /home/mayank/Downloads/summary_frames_a2b/semmancheri_channel1302_summary.jpg
+Unique Key: semmancheri_channel1302
+============================================================
+
+Total Polygons: 2
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 5
+Original Coordinates:
+  Point 1: (164, 116)
+  Point 2: (169, 198)
+  Point 3: (292, 295)
+  Point 4: (289, 119)
+  Point 5: (250, 87)
+Normalized Coordinates:
+  Point 1: (0.2562, 0.3021)
+  Point 2: (0.2641, 0.5156)
+  Point 3: (0.4562, 0.7682)
+  Point 4: (0.4516, 0.3099)
+  Point 5: (0.3906, 0.2266)
+
+----------------------------------------
+
+Polygon: polygon_2
+File: polygon_2.txt
+Points: 6
+Original Coordinates:
+  Point 1: (108, 76)
+  Point 2: (175, 57)
+  Point 3: (236, 84)
+  Point 4: (162, 112)
+  Point 5: (163, 166)
+  Point 6: (115, 132)
+Normalized Coordinates:
+  Point 1: (0.1688, 0.1979)
+  Point 2: (0.2734, 0.1484)
+  Point 3: (0.3688, 0.2188)
+  Point 4: (0.2531, 0.2917)
+  Point 5: (0.2547, 0.4323)
+  Point 6: (0.1797, 0.3438)
+
+----------------------------------------
+

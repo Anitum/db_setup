@@ -1,0 +1,6 @@
+Polygon 10 Points (original coordinates):
+Point 1: (734, 306)
+Point 2: (822, 234)
+Point 3: (1176, 260)
+Point 4: (1124, 420)
+Point 5: (750, 366)

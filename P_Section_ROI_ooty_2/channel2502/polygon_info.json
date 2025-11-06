@@ -1,0 +1,78 @@
+{
+    "timestamp": "20250928_150356",
+    "channel_index": 8,
+    "directory_name": "ooty-2_channel2502",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "overlaid_ooty-2_channel2502_1757687689.550793.jpg",
+        "full_path": "/home/mayank/Downloads/Zayd/overlaid_frames_ooty-2-2/overlaid_ooty-2_channel2502_1757687689.550793.jpg",
+        "outlet_name": "ooty-2",
+        "channel_number": "2502",
+        "display_name": "ooty-2 (Channel 2502)",
+        "unique_key": "ooty-2_channel2502"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "ooty-2_channel2502/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    633,
+                    236
+                ],
+                [
+                    378,
+                    23
+                ],
+                [
+                    209,
+                    16
+                ],
+                [
+                    1,
+                    49
+                ],
+                [
+                    4,
+                    374
+                ],
+                [
+                    633,
+                    374
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.9891,
+                    0.6146
+                ],
+                [
+                    0.5906,
+                    0.0599
+                ],
+                [
+                    0.3266,
+                    0.0417
+                ],
+                [
+                    0.0016,
+                    0.1276
+                ],
+                [
+                    0.0063,
+                    0.974
+                ],
+                [
+                    0.9891,
+                    0.974
+                ]
+            ],
+            "point_count": 6
+        }
+    ]
+}

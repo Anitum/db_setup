@@ -1,0 +1,86 @@
+{
+    "timestamp": "20250928_180126",
+    "channel_index": 2,
+    "directory_name": "blr-boommachandra-2_channel1802",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "overlaid_blr-boommachandra-2_channel1802_1757687673.8507814.jpg",
+        "full_path": "/home/mayank/Downloads/Zayd/overlaid_frames_blr-boommachandra-2-2/overlaid_blr-boommachandra-2_channel1802_1757687673.8507814.jpg",
+        "outlet_name": "blr-boommachandra-2",
+        "channel_number": "1802",
+        "display_name": "blr-boommachandra-2 (Channel 1802)",
+        "unique_key": "blr-boommachandra-2_channel1802"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "blr-boommachandra-2_channel1802/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    69,
+                    3
+                ],
+                [
+                    92,
+                    288
+                ],
+                [
+                    123,
+                    366
+                ],
+                [
+                    331,
+                    292
+                ],
+                [
+                    431,
+                    198
+                ],
+                [
+                    550,
+                    146
+                ],
+                [
+                    569,
+                    1
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.1078,
+                    0.0078
+                ],
+                [
+                    0.1437,
+                    0.75
+                ],
+                [
+                    0.1922,
+                    0.9531
+                ],
+                [
+                    0.5172,
+                    0.7604
+                ],
+                [
+                    0.6734,
+                    0.5156
+                ],
+                [
+                    0.8594,
+                    0.3802
+                ],
+                [
+                    0.8891,
+                    0.0026
+                ]
+            ],
+            "point_count": 7
+        }
+    ]
+}

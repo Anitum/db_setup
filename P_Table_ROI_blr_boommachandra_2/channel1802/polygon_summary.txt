@@ -1,0 +1,82 @@
+Directory: blr-boommachandra-2_channel1802 (Image #10)
+Timestamp: 20250923_175322
+Image Dimensions: 640x384
+Source Image: blr-boommachandra-2_channel1802_summary.jpg
+Outlet: blr-boommachandra-2
+Channel: 1802
+Image Path: /home/mayank/Downloads/summary_frames_a2b/blr-boommachandra-2_channel1802_summary.jpg
+Unique Key: blr-boommachandra-2_channel1802
+============================================================
+
+Total Polygons: 4
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 6
+Original Coordinates:
+  Point 1: (310, 112)
+  Point 2: (341, 79)
+  Point 3: (443, 96)
+  Point 4: (510, 117)
+  Point 5: (470, 172)
+  Point 6: (378, 259)
+Normalized Coordinates:
+  Point 1: (0.4844, 0.2917)
+  Point 2: (0.5328, 0.2057)
+  Point 3: (0.6922, 0.25)
+  Point 4: (0.7969, 0.3047)
+  Point 5: (0.7344, 0.4479)
+  Point 6: (0.5906, 0.6745)
+
+----------------------------------------
+
+Polygon: polygon_2
+File: polygon_2.txt
+Points: 5
+Original Coordinates:
+  Point 1: (236, 64)
+  Point 2: (355, 42)
+  Point 3: (408, 74)
+  Point 4: (376, 98)
+  Point 5: (276, 129)
+Normalized Coordinates:
+  Point 1: (0.3688, 0.1667)
+  Point 2: (0.5547, 0.1094)
+  Point 3: (0.6375, 0.1927)
+  Point 4: (0.5875, 0.2552)
+  Point 5: (0.4313, 0.3359)
+
+----------------------------------------
+
+Polygon: polygon_3
+File: polygon_3.txt
+Points: 4
+Original Coordinates:
+  Point 1: (74, 110)
+  Point 2: (161, 91)
+  Point 3: (210, 169)
+  Point 4: (76, 196)
+Normalized Coordinates:
+  Point 1: (0.1156, 0.2865)
+  Point 2: (0.2516, 0.237)
+  Point 3: (0.3281, 0.4401)
+  Point 4: (0.1187, 0.5104)
+
+----------------------------------------
+
+Polygon: polygon_4
+File: polygon_4.txt
+Points: 4
+Original Coordinates:
+  Point 1: (81, 61)
+  Point 2: (141, 56)
+  Point 3: (162, 88)
+  Point 4: (72, 107)
+Normalized Coordinates:
+  Point 1: (0.1266, 0.1589)
+  Point 2: (0.2203, 0.1458)
+  Point 3: (0.2531, 0.2292)
+  Point 4: (0.1125, 0.2786)
+
+----------------------------------------
+

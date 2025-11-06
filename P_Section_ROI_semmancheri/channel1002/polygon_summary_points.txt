@@ -1,0 +1,210 @@
+Directory: semmancheri_channel1002 (Image #121)
+Timestamp: 20250923_182604
+Image Dimensions: 640x384
+Source Image: semmancheri_channel1002_summary.jpg
+Outlet: semmancheri
+Channel: 1002
+Image Path: /home/mayank/Downloads/summary_frames_a2b/semmancheri_channel1002_summary.jpg
+Unique Key: semmancheri_channel1002
+============================================================
+
+Total Polygons: 12
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 4
+Original Coordinates:
+  Point 1: (305, 148)
+  Point 2: (405, 147)
+  Point 3: (430, 296)
+  Point 4: (259, 290)
+Normalized Coordinates:
+  Point 1: (0.4766, 0.3854)
+  Point 2: (0.6328, 0.3828)
+  Point 3: (0.6719, 0.7708)
+  Point 4: (0.4047, 0.7552)
+
+----------------------------------------
+
+Polygon: polygon_2
+File: polygon_2.txt
+Points: 4
+Original Coordinates:
+  Point 1: (205, 152)
+  Point 2: (296, 152)
+  Point 3: (241, 293)
+  Point 4: (120, 282)
+Normalized Coordinates:
+  Point 1: (0.3203, 0.3958)
+  Point 2: (0.4625, 0.3958)
+  Point 3: (0.3766, 0.763)
+  Point 4: (0.1875, 0.7344)
+
+----------------------------------------
+
+Polygon: polygon_3
+File: polygon_3.txt
+Points: 4
+Original Coordinates:
+  Point 1: (112, 292)
+  Point 2: (237, 307)
+  Point 3: (212, 382)
+  Point 4: (91, 383)
+Normalized Coordinates:
+  Point 1: (0.175, 0.7604)
+  Point 2: (0.3703, 0.7995)
+  Point 3: (0.3312, 0.9948)
+  Point 4: (0.1422, 0.9974)
+
+----------------------------------------
+
+Polygon: polygon_4
+File: polygon_4.txt
+Points: 4
+Original Coordinates:
+  Point 1: (260, 300)
+  Point 2: (421, 305)
+  Point 3: (432, 377)
+  Point 4: (233, 379)
+Normalized Coordinates:
+  Point 1: (0.4062, 0.7812)
+  Point 2: (0.6578, 0.7943)
+  Point 3: (0.675, 0.9818)
+  Point 4: (0.3641, 0.987)
+
+----------------------------------------
+
+Polygon: polygon_5
+File: polygon_5.txt
+Points: 4
+Original Coordinates:
+  Point 1: (328, 92)
+  Point 2: (401, 88)
+  Point 3: (403, 141)
+  Point 4: (308, 143)
+Normalized Coordinates:
+  Point 1: (0.5125, 0.2396)
+  Point 2: (0.6266, 0.2292)
+  Point 3: (0.6297, 0.3672)
+  Point 4: (0.4813, 0.3724)
+
+----------------------------------------
+
+Polygon: polygon_6
+File: polygon_6.txt
+Points: 4
+Original Coordinates:
+  Point 1: (256, 93)
+  Point 2: (317, 91)
+  Point 3: (296, 146)
+  Point 4: (219, 146)
+Normalized Coordinates:
+  Point 1: (0.4, 0.2422)
+  Point 2: (0.4953, 0.237)
+  Point 3: (0.4625, 0.3802)
+  Point 4: (0.3422, 0.3802)
+
+----------------------------------------
+
+Polygon: polygon_7
+File: polygon_7.txt
+Points: 4
+Original Coordinates:
+  Point 1: (281, 60)
+  Point 2: (328, 52)
+  Point 3: (316, 88)
+  Point 4: (266, 85)
+Normalized Coordinates:
+  Point 1: (0.4391, 0.1562)
+  Point 2: (0.5125, 0.1354)
+  Point 3: (0.4938, 0.2292)
+  Point 4: (0.4156, 0.2214)
+
+----------------------------------------
+
+Polygon: polygon_8
+File: polygon_8.txt
+Points: 4
+Original Coordinates:
+  Point 1: (337, 54)
+  Point 2: (376, 50)
+  Point 3: (394, 84)
+  Point 4: (331, 85)
+Normalized Coordinates:
+  Point 1: (0.5266, 0.1406)
+  Point 2: (0.5875, 0.1302)
+  Point 3: (0.6156, 0.2188)
+  Point 4: (0.5172, 0.2214)
+
+----------------------------------------
+
+Polygon: polygon_9
+File: polygon_9.txt
+Points: 5
+Original Coordinates:
+  Point 1: (504, 192)
+  Point 2: (628, 179)
+  Point 3: (638, 259)
+  Point 4: (566, 327)
+  Point 5: (539, 319)
+Normalized Coordinates:
+  Point 1: (0.7875, 0.5)
+  Point 2: (0.9812, 0.4661)
+  Point 3: (0.9969, 0.6745)
+  Point 4: (0.8844, 0.8516)
+  Point 5: (0.8422, 0.8307)
+
+----------------------------------------
+
+Polygon: polygon_10
+File: polygon_10.txt
+Points: 6
+Original Coordinates:
+  Point 1: (457, 125)
+  Point 2: (574, 116)
+  Point 3: (600, 140)
+  Point 4: (592, 178)
+  Point 5: (514, 181)
+  Point 6: (481, 214)
+Normalized Coordinates:
+  Point 1: (0.7141, 0.3255)
+  Point 2: (0.8969, 0.3021)
+  Point 3: (0.9375, 0.3646)
+  Point 4: (0.925, 0.4635)
+  Point 5: (0.8031, 0.4714)
+  Point 6: (0.7516, 0.5573)
+
+----------------------------------------
+
+Polygon: polygon_11
+File: polygon_11.txt
+Points: 4
+Original Coordinates:
+  Point 1: (456, 89)
+  Point 2: (544, 83)
+  Point 3: (572, 112)
+  Point 4: (457, 122)
+Normalized Coordinates:
+  Point 1: (0.7125, 0.2318)
+  Point 2: (0.85, 0.2161)
+  Point 3: (0.8938, 0.2917)
+  Point 4: (0.7141, 0.3177)
+
+----------------------------------------
+
+Polygon: polygon_12
+File: polygon_12.txt
+Points: 4
+Original Coordinates:
+  Point 1: (446, 53)
+  Point 2: (502, 44)
+  Point 3: (536, 79)
+  Point 4: (454, 81)
+Normalized Coordinates:
+  Point 1: (0.6969, 0.138)
+  Point 2: (0.7844, 0.1146)
+  Point 3: (0.8375, 0.2057)
+  Point 4: (0.7094, 0.2109)
+
+----------------------------------------
+

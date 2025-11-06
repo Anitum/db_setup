@@ -1,0 +1,5 @@
+Polygon Points (normalized coordinates):
+Point 1: (0.6234, 0.3542)
+Point 2: (0.6391, 0.2135)
+Point 3: (0.7438, 0.2292)
+Point 4: (0.7656, 0.3672)

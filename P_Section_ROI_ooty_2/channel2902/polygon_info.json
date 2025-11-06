@@ -1,0 +1,70 @@
+{
+    "timestamp": "20250928_150402",
+    "channel_index": 11,
+    "directory_name": "ooty-2_channel2902",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "overlaid_ooty-2_channel2902_1757687730.6430063.jpg",
+        "full_path": "/home/mayank/Downloads/Zayd/overlaid_frames_ooty-2-2/overlaid_ooty-2_channel2902_1757687730.6430063.jpg",
+        "outlet_name": "ooty-2",
+        "channel_number": "2902",
+        "display_name": "ooty-2 (Channel 2902)",
+        "unique_key": "ooty-2_channel2902"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "ooty-2_channel2902/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    480,
+                    37
+                ],
+                [
+                    626,
+                    91
+                ],
+                [
+                    554,
+                    374
+                ],
+                [
+                    336,
+                    373
+                ],
+                [
+                    148,
+                    178
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.75,
+                    0.0964
+                ],
+                [
+                    0.9781,
+                    0.237
+                ],
+                [
+                    0.8656,
+                    0.974
+                ],
+                [
+                    0.525,
+                    0.9714
+                ],
+                [
+                    0.2313,
+                    0.4635
+                ]
+            ],
+            "point_count": 5
+        }
+    ]
+}

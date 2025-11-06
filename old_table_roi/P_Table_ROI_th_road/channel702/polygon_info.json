@@ -1,0 +1,129 @@
+{
+    "timestamp": "20250923_193826",
+    "image_index": 160,
+    "directory_name": "th-road_channel702",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "th-road_channel702_summary.jpg",
+        "full_path": "/home/mayank/Downloads/summary_frames_a2b/th-road_channel702_summary.jpg",
+        "outlet_name": "th-road",
+        "channel_number": "702",
+        "display_name": "th-road (Channel 702)",
+        "unique_key": "th-road_channel702"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_5",
+            "filename": "polygon_5.txt",
+            "full_path": "/home/anitum-jk/Downloads/trail/Table_ROI_5_outlets/th-road_channel702/polygon_5.txt",
+            "original_coordinates": [
+                [
+                    520,
+                    279
+                ],
+                [
+                    605,
+                    192
+                ],
+                [
+                    541,
+                    107
+                ],
+                [
+                    459,
+                    103
+                ],
+                [
+                    444,
+                    172
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.8125,
+                    0.7266
+                ],
+                [
+                    0.9453,
+                    0.5
+                ],
+                [
+                    0.8453,
+                    0.2786
+                ],
+                [
+                    0.7172,
+                    0.2682
+                ],
+                [
+                    0.6937,
+                    0.4479
+                ]
+            ],
+            "point_count": 5
+        },
+        {
+            "polygon_id": 2,
+            "name": "polygon_4",
+            "filename": "polygon_4.txt",
+            "full_path": "/home/anitum-jk/Downloads/trail/Table_ROI_5_outlets/th-road_channel702/polygon_4.txt",
+            "original_coordinates": [
+                [
+                    412,
+                    72
+                ],
+                [
+                    433,
+                    58
+                ],
+                [
+                    484,
+                    57
+                ],
+                [
+                    510,
+                    98
+                ],
+                [
+                    460,
+                    98
+                ],
+                [
+                    443,
+                    150
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.6438,
+                    0.1875
+                ],
+                [
+                    0.6766,
+                    0.151
+                ],
+                [
+                    0.7562,
+                    0.1484
+                ],
+                [
+                    0.7969,
+                    0.2552
+                ],
+                [
+                    0.7188,
+                    0.2552
+                ],
+                [
+                    0.6922,
+                    0.3906
+                ]
+            ],
+            "point_count": 6
+        }
+    ]
+}

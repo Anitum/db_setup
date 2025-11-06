@@ -1,0 +1,78 @@
+{
+    "timestamp": "20250927_230411",
+    "channel_index": 6,
+    "directory_name": "th-road_channel602",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "overlaid_th-road_channel602_1757682120.281357.jpg",
+        "full_path": "/home/mayank/Downloads/Zayd/th-road/overlaid_th-road_channel602_1757682120.281357.jpg",
+        "outlet_name": "th-road",
+        "channel_number": "602",
+        "display_name": "th-road (Channel 602)",
+        "unique_key": "th-road_channel602"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "th-road_channel602/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    636,
+                    377
+                ],
+                [
+                    263,
+                    375
+                ],
+                [
+                    119,
+                    266
+                ],
+                [
+                    94,
+                    163
+                ],
+                [
+                    458,
+                    39
+                ],
+                [
+                    635,
+                    94
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.9938,
+                    0.9818
+                ],
+                [
+                    0.4109,
+                    0.9766
+                ],
+                [
+                    0.1859,
+                    0.6927
+                ],
+                [
+                    0.1469,
+                    0.4245
+                ],
+                [
+                    0.7156,
+                    0.1016
+                ],
+                [
+                    0.9922,
+                    0.2448
+                ]
+            ],
+            "point_count": 6
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+Directory: blr-boommachandra-2_channel1102 (Channel #11)
+Timestamp: 20250928_191642
+Image Dimensions: 640x384
+Source Image: overlaid_blr-boommachandra-2_channel1102_1757682012.1472664.jpg
+Outlet: blr-boommachandra-2
+Channel: 1102
+Image Path: /home/mayank/Downloads/Zayd/blr-2/overlaid_blr-boommachandra-2_channel1102_1757682012.1472664.jpg
+Unique Key: blr-boommachandra-2_channel1102
+============================================================
+
+Total Polygons: 1
+
+Polygon: polygon_1
+File: polygon_1.txt
+Points: 6
+Original Coordinates:
+  Point 1: (2, 252)
+  Point 2: (169, 136)
+  Point 3: (288, 162)
+  Point 4: (275, 248)
+  Point 5: (168, 378)
+  Point 6: (0, 373)
+Normalized Coordinates:
+  Point 1: (0.0031, 0.6562)
+  Point 2: (0.2641, 0.3542)
+  Point 3: (0.45, 0.4219)
+  Point 4: (0.4297, 0.6458)
+  Point 5: (0.2625, 0.9844)
+  Point 6: (0.0, 0.9714)
+
+----------------------------------------
+

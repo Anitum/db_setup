@@ -1,0 +1,28 @@
+Directory: blr-boommachandra-2_channel102 (Image #2)
+Timestamp: 20250923_170732
+Image Dimensions: 640x384
+Source Image: blr-boommachandra-2_channel102_summary.jpg
+Outlet: blr-boommachandra-2
+Channel: 102
+Image Path: /home/mayank/Downloads/summary_frames_a2b/blr-boommachandra-2_channel102_summary.jpg
+Unique Key: blr-boommachandra-2_channel102
+============================================================
+
+Total Polygons: 1
+
+Polygon: polygon_1
+File: polygon_1_points.txt
+Points: 4
+Original Coordinates:
+  Point 1: (587, 62)
+  Point 2: (638, 77)
+  Point 3: (619, 155)
+  Point 4: (573, 141)
+Normalized Coordinates:
+  Point 1: (0.9172, 0.1615)
+  Point 2: (0.9969, 0.2005)
+  Point 3: (0.9672, 0.4036)
+  Point 4: (0.8953, 0.3672)
+
+----------------------------------------
+

@@ -1,0 +1,559 @@
+{
+    "timestamp": "20250923_182604",
+    "image_index": 121,
+    "directory_name": "semmancheri_channel1002",
+    "image_dimensions": {
+        "width": 640,
+        "height": 384
+    },
+    "source_image": {
+        "filename": "semmancheri_channel1002_summary.jpg",
+        "full_path": "/home/mayank/Downloads/summary_frames_a2b/semmancheri_channel1002_summary.jpg",
+        "outlet_name": "semmancheri",
+        "channel_number": "1002",
+        "display_name": "semmancheri (Channel 1002)",
+        "unique_key": "semmancheri_channel1002"
+    },
+    "polygons": [
+        {
+            "polygon_id": 1,
+            "name": "polygon_1",
+            "filename": "polygon_1.txt",
+            "full_path": "semmancheri_channel1002/polygon_1.txt",
+            "original_coordinates": [
+                [
+                    305,
+                    148
+                ],
+                [
+                    405,
+                    147
+                ],
+                [
+                    430,
+                    296
+                ],
+                [
+                    259,
+                    290
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.4766,
+                    0.3854
+                ],
+                [
+                    0.6328,
+                    0.3828
+                ],
+                [
+                    0.6719,
+                    0.7708
+                ],
+                [
+                    0.4047,
+                    0.7552
+                ]
+            ],
+            "point_count": 4
+        },
+        {
+            "polygon_id": 2,
+            "name": "polygon_2",
+            "filename": "polygon_2.txt",
+            "full_path": "semmancheri_channel1002/polygon_2.txt",
+            "original_coordinates": [
+                [
+                    205,
+                    152
+                ],
+                [
+                    296,
+                    152
+                ],
+                [
+                    241,
+                    293
+                ],
+                [
+                    120,
+                    282
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.3203,
+                    0.3958
+                ],
+                [
+                    0.4625,
+                    0.3958
+                ],
+                [
+                    0.3766,
+                    0.763
+                ],
+                [
+                    0.1875,
+                    0.7344
+                ]
+            ],
+            "point_count": 4
+        },
+        {
+            "polygon_id": 3,
+            "name": "polygon_3",
+            "filename": "polygon_3.txt",
+            "full_path": "semmancheri_channel1002/polygon_3.txt",
+            "original_coordinates": [
+                [
+                    112,
+                    292
+                ],
+                [
+                    237,
+                    307
+                ],
+                [
+                    212,
+                    382
+                ],
+                [
+                    91,
+                    383
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.175,
+                    0.7604
+                ],
+                [
+                    0.3703,
+                    0.7995
+                ],
+                [
+                    0.3312,
+                    0.9948
+                ],
+                [
+                    0.1422,
+                    0.9974
+                ]
+            ],
+            "point_count": 4
+        },
+        {
+            "polygon_id": 4,
+            "name": "polygon_4",
+            "filename": "polygon_4.txt",
+            "full_path": "semmancheri_channel1002/polygon_4.txt",
+            "original_coordinates": [
+                [
+                    260,
+                    300
+                ],
+                [
+                    421,
+                    305
+                ],
+                [
+                    432,
+                    377
+                ],
+                [
+                    233,
+                    379
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.4062,
+                    0.7812
+                ],
+                [
+                    0.6578,
+                    0.7943
+                ],
+                [
+                    0.675,
+                    0.9818
+                ],
+                [
+                    0.3641,
+                    0.987
+                ]
+            ],
+            "point_count": 4
+        },
+        {
+            "polygon_id": 5,
+            "name": "polygon_5",
+            "filename": "polygon_5.txt",
+            "full_path": "semmancheri_channel1002/polygon_5.txt",
+            "original_coordinates": [
+                [
+                    328,
+                    92
+                ],
+                [
+                    401,
+                    88
+                ],
+                [
+                    403,
+                    141
+                ],
+                [
+                    308,
+                    143
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.5125,
+                    0.2396
+                ],
+                [
+                    0.6266,
+                    0.2292
+                ],
+                [
+                    0.6297,
+                    0.3672
+                ],
+                [
+                    0.4813,
+                    0.3724
+                ]
+            ],
+            "point_count": 4
+        },
+        {
+            "polygon_id": 6,
+            "name": "polygon_6",
+            "filename": "polygon_6.txt",
+            "full_path": "semmancheri_channel1002/polygon_6.txt",
+            "original_coordinates": [
+                [
+                    256,
+                    93
+                ],
+                [
+                    317,
+                    91
+                ],
+                [
+                    296,
+                    146
+                ],
+                [
+                    219,
+                    146
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.4,
+                    0.2422
+                ],
+                [
+                    0.4953,
+                    0.237
+                ],
+                [
+                    0.4625,
+                    0.3802
+                ],
+                [
+                    0.3422,
+                    0.3802
+                ]
+            ],
+            "point_count": 4
+        },
+        {
+            "polygon_id": 7,
+            "name": "polygon_7",
+            "filename": "polygon_7.txt",
+            "full_path": "semmancheri_channel1002/polygon_7.txt",
+            "original_coordinates": [
+                [
+                    281,
+                    60
+                ],
+                [
+                    328,
+                    52
+                ],
+                [
+                    316,
+                    88
+                ],
+                [
+                    266,
+                    85
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.4391,
+                    0.1562
+                ],
+                [
+                    0.5125,
+                    0.1354
+                ],
+                [
+                    0.4938,
+                    0.2292
+                ],
+                [
+                    0.4156,
+                    0.2214
+                ]
+            ],
+            "point_count": 4
+        },
+        {
+            "polygon_id": 8,
+            "name": "polygon_8",
+            "filename": "polygon_8.txt",
+            "full_path": "semmancheri_channel1002/polygon_8.txt",
+            "original_coordinates": [
+                [
+                    337,
+                    54
+                ],
+                [
+                    376,
+                    50
+                ],
+                [
+                    394,
+                    84
+                ],
+                [
+                    331,
+                    85
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.5266,
+                    0.1406
+                ],
+                [
+                    0.5875,
+                    0.1302
+                ],
+                [
+                    0.6156,
+                    0.2188
+                ],
+                [
+                    0.5172,
+                    0.2214
+                ]
+            ],
+            "point_count": 4
+        },
+        {
+            "polygon_id": 9,
+            "name": "polygon_9",
+            "filename": "polygon_9.txt",
+            "full_path": "semmancheri_channel1002/polygon_9.txt",
+            "original_coordinates": [
+                [
+                    504,
+                    192
+                ],
+                [
+                    628,
+                    179
+                ],
+                [
+                    638,
+                    259
+                ],
+                [
+                    566,
+                    327
+                ],
+                [
+                    539,
+                    319
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.7875,
+                    0.5
+                ],
+                [
+                    0.9812,
+                    0.4661
+                ],
+                [
+                    0.9969,
+                    0.6745
+                ],
+                [
+                    0.8844,
+                    0.8516
+                ],
+                [
+                    0.8422,
+                    0.8307
+                ]
+            ],
+            "point_count": 5
+        },
+        {
+            "polygon_id": 10,
+            "name": "polygon_10",
+            "filename": "polygon_10.txt",
+            "full_path": "semmancheri_channel1002/polygon_10.txt",
+            "original_coordinates": [
+                [
+                    457,
+                    125
+                ],
+                [
+                    574,
+                    116
+                ],
+                [
+                    600,
+                    140
+                ],
+                [
+                    592,
+                    178
+                ],
+                [
+                    514,
+                    181
+                ],
+                [
+                    481,
+                    214
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.7141,
+                    0.3255
+                ],
+                [
+                    0.8969,
+                    0.3021
+                ],
+                [
+                    0.9375,
+                    0.3646
+                ],
+                [
+                    0.925,
+                    0.4635
+                ],
+                [
+                    0.8031,
+                    0.4714
+                ],
+                [
+                    0.7516,
+                    0.5573
+                ]
+            ],
+            "point_count": 6
+        },
+        {
+            "polygon_id": 11,
+            "name": "polygon_11",
+            "filename": "polygon_11.txt",
+            "full_path": "semmancheri_channel1002/polygon_11.txt",
+            "original_coordinates": [
+                [
+                    456,
+                    89
+                ],
+                [
+                    544,
+                    83
+                ],
+                [
+                    572,
+                    112
+                ],
+                [
+                    457,
+                    122
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.7125,
+                    0.2318
+                ],
+                [
+                    0.85,
+                    0.2161
+                ],
+                [
+                    0.8938,
+                    0.2917
+                ],
+                [
+                    0.7141,
+                    0.3177
+                ]
+            ],
+            "point_count": 4
+        },
+        {
+            "polygon_id": 12,
+            "name": "polygon_12",
+            "filename": "polygon_12.txt",
+            "full_path": "semmancheri_channel1002/polygon_12.txt",
+            "original_coordinates": [
+                [
+                    446,
+                    53
+                ],
+                [
+                    502,
+                    44
+                ],
+                [
+                    536,
+                    79
+                ],
+                [
+                    454,
+                    81
+                ]
+            ],
+            "normalized_coordinates": [
+                [
+                    0.6969,
+                    0.138
+                ],
+                [
+                    0.7844,
+                    0.1146
+                ],
+                [
+                    0.8375,
+                    0.2057
+                ],
+                [
+                    0.7094,
+                    0.2109
+                ]
+            ],
+            "point_count": 4
+        }
+    ]
+}

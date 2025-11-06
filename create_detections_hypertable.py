@@ -24,7 +24,7 @@ def create_detections_hypertable(engine):
     -- Create detections table if it doesn't exist
     CREATE TABLE IF NOT EXISTS detections (
         id SERIAL,
-        channel_id INTEGER,
+        channel_id TEXT,
         frame_id INTEGER,
         xc DOUBLE PRECISION,
         yc DOUBLE PRECISION,
