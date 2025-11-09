@@ -34,7 +34,7 @@ def create_detections_hypertable(engine):
         conf DOUBLE PRECISION,
         timestamp TIMESTAMPTZ NOT NULL,
         outlet TEXT,
-        PRIMARY KEY (id, timestamp, channel_id)
+        PRIMARY KEY (id, timestamp, channel_id, outlet)
     );
     """
     
