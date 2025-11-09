@@ -1,6 +1,0 @@
-Polygon 1 Points (original coordinates):
-Point 1: (200, 898)
-Point 2: (12, 1194)
-Point 3: (14, 1420)
-Point 4: (312, 1422)
-Point 5: (530, 940)

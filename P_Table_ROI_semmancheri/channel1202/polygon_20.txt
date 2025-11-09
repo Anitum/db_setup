@@ -1,5 +1,0 @@
-Polygon 6 Points (original coordinates):
-Point 1: (1032, 200)
-Point 2: (910, 406)
-Point 3: (1282, 410)
-Point 4: (1290, 180)

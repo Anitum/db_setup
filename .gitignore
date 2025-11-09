@@ -1,0 +1,16 @@
+# Ignore all .log files
+*.log
+*.zip
+
+# Ignore the specific ROI files
+final_table_roi
+old_table_roi
+processed_section_roi
+initial_frames.py
+insert_bet_dbs.py
+diwali_dbs_to_common_db_ready.py
+setup_outlet_tables.sh
+
+# Ignore all P_Section_ROI and P_Table_ROI files
+P_Section_ROI_*
+P_Table_ROI_*

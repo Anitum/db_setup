@@ -1,5 +1,0 @@
-Polygon 3 Points (original coordinates):
-Point 1: (776, 242)
-Point 2: (554, 442)
-Point 3: (822, 426)
-Point 4: (974, 230)

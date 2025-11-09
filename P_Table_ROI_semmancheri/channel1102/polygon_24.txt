@@ -1,5 +1,0 @@
-Polygon 7 Points (original coordinates):
-Point 1: (568, 384)
-Point 2: (720, 276)
-Point 3: (1128, 308)
-Point 4: (1040, 446)

@@ -1,6 +1,0 @@
-Polygon 9 Points (original coordinates):
-Point 1: (2316, 454)
-Point 2: (1914, 458)
-Point 3: (2002, 652)
-Point 4: (2376, 638)
-Point 5: (2402, 516)

@@ -1,5 +1,0 @@
-Polygon 4 Points (original coordinates):
-Point 1: (646, 898)
-Point 2: (1284, 894)
-Point 3: (1286, 1426)
-Point 4: (412, 1420)

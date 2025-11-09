@@ -1,5 +1,0 @@
-Polygon 5 Points (original coordinates):
-Point 1: (1310, 346)
-Point 2: (1234, 548)
-Point 3: (1624, 558)
-Point 4: (1590, 344)

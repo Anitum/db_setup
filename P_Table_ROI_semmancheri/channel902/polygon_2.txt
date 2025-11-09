@@ -1,5 +1,0 @@
-Polygon 8 Points (original coordinates):
-Point 1: (1664, 236)
-Point 2: (1838, 246)
-Point 3: (1992, 380)
-Point 4: (1760, 360)
