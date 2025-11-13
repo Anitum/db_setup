@@ -50,59 +50,44 @@ DB_HOST="localhost"
 DB_PORT="5432"
 DB_USER="postgres"
 DB_PASSWORD="anitum"
-DB_NAME="aab_db_demo_diwali_v2"
+DB_NAME="constrained_db_testing"
 
-# --- Global Outlet Configuration ---
-OUTLET="th_road"
+# --- Outlets Configuration ---
+# Define the list of outlets to process
+OUTLETS=("nungambakkam")
+echo "Processing outlets: ${OUTLETS[@]}"
 
-# --- ROI Configuration ---
-# Table ROI Configuration
-TABLE_ROI_FOLDER="/home/aabadmin/db_postgres/P_Table_ROI_${OUTLET}"
-TABLE_ROI_GEOMETRY_TABLE="roi_table_polygons_geometries_${OUTLET}"
-TABLE_ROI_MATRIX_TABLE="roi_table_polygons_matrix_${OUTLET}"
-# TABLE_ROI_SCALED_TABLE="roi_table_polygons_matrix_scaled_${OUTLET}"
-TABLE_ROI_OUTLET="${OUTLET}"
-TABLE_ROI_DESCRIPTION="Table ROI polygons (temporary staging)"
+# Create comma-separated list for ENABLED_OUTLETS
+ENABLED_OUTLETS=$(IFS=,; echo "${OUTLETS[*]}")
+export ENABLED_OUTLETS
 
-# Section ROI Configuration
-SECTION_ROI_FOLDER="/home/aabadmin/db_postgres/P_Section_ROI_${OUTLET}"
-SECTION_ROI_GEOMETRY_TABLE="roi_section_polygons_geometries_${OUTLET}"
-SECTION_ROI_OUTLET="${OUTLET}"
-SECTION_ROI_DESCRIPTION="Section-wise ROI polygons (temporary staging)"
-
-# --- Export Variables for Python Scripts ---
+# Export global database configuration
 export DB_HOST
 export DB_PORT
 export DB_USER
 export DB_PASSWORD
 export DB_NAME
-export OUTLET
+export DETECTIONS_TABLE_NAME="detections"
 
-# Export ROI Configuration
-export TABLE_ROI_FOLDER
-export TABLE_ROI_GEOMETRY_TABLE
-export TABLE_ROI_MATRIX_TABLE
-export TABLE_ROI_SCALED_TABLE
-export TABLE_ROI_OUTLET
-export TABLE_ROI_DESCRIPTION
-
-export SECTION_ROI_FOLDER
-export SECTION_ROI_GEOMETRY_TABLE
-export SECTION_ROI_OUTLET
-export SECTION_ROI_DESCRIPTION
-
-# --- Output Tables Configuration ---
-# Detection input table
-DETECTIONS_TABLE_NAME="detections"
-
-# Output table mappings (polygon_table:output_table)
-TABLE_OUTPUT_MAPPING="${TABLE_ROI_MATRIX_TABLE}:detections_in_table_${OUTLET},
-${TABLE_ROI_SCALED_TABLE}:detections_in_table_scaled_${OUTLET},
-${SECTION_ROI_GEOMETRY_TABLE}:detections_in_section_${OUTLET}"
-
-# Export output table configuration
-export DETECTIONS_TABLE_NAME
-export TABLE_OUTPUT_MAPPING
+# Function to set outlet-specific variables
+set_outlet_variables() {
+    local outlet=$1
+    
+    export OUTLET="$outlet"
+    export TABLE_ROI_FOLDER="./P_Table_ROI_${outlet}"
+    export TABLE_ROI_GEOMETRY_TABLE="roi_table_polygons_geometries_${outlet}"
+    export TABLE_ROI_MATRIX_TABLE="roi_table_polygons_matrix_${outlet}"
+    export TABLE_ROI_SCALED_TABLE="roi_table_polygons_matrix_scaled_${outlet}"
+    export TABLE_ROI_OUTLET="${outlet}"
+    export TABLE_ROI_DESCRIPTION="Table ROI polygons (temporary staging)"
+    
+    export SECTION_ROI_FOLDER="./P_Section_ROI_${outlet}"
+    export SECTION_ROI_GEOMETRY_TABLE="roi_section_polygons_geometries_${outlet}"
+    export SECTION_ROI_OUTLET="${outlet}"
+    export SECTION_ROI_DESCRIPTION="Section-wise ROI polygons (temporary staging)"
+    
+    export TABLE_OUTPUT_MAPPING="${TABLE_ROI_MATRIX_TABLE}:detections_in_table_${outlet},${TABLE_ROI_SCALED_TABLE}:detections_in_table_scaled_${outlet},${SECTION_ROI_GEOMETRY_TABLE}:detections_in_section_${outlet}"
+}
 
 # Set PGPASSWORD to avoid password prompts
 export PGPASSWORD="$DB_PASSWORD"
@@ -125,62 +110,57 @@ psql -h "$DB_HOST" -p "$DB_PORT" -U "$DB_USER" -d "$DB_NAME" -c "
 " || { echo "Failed to enable extensions."; exit 1; }
 echo "Database '$DB_NAME' is ready."
 
-# --- Run Python Scripts Sequentially with logging ---
-# Log file where all output and errors will be stored.
+# --- One-time Setup ---
 LOG_FILE="combined_logs.log"
+echo "Database Setup - $(date)" > "$LOG_FILE"
 
-echo "Starting Python scripts sequentially..." > "$LOG_FILE" 2>&1
-
-# Get the path of the python interpreter
-PYTHON_PATH=$(which python)
-
-# Check if python was found
+PYTHON_PATH=$(which python3)
 if [ -z "$PYTHON_PATH" ]; then
     echo "Error: Python not found in PATH." | tee -a "$LOG_FILE"
     exit 1
 fi
 
-echo "Using Python interpreter: $PYTHON_PATH" | tee -a "$LOG_FILE"
-
-# echo "Creating detections hypertable..." | tee -a "$LOG_FILE"
-# "$PYTHON_PATH" /home/aabadmin/db_postgres/create_detections_hypertable.py >> "$LOG_FILE" 2>&1
-# if [ $? -ne 0 ]; then
-#     echo "Error: Detections hypertable creation failed. Check $LOG_FILE for details."
-#     exit 1
-# fi
-# echo "Detections hypertable creation completed successfully." | tee -a "$LOG_FILE"
-
-
-
-echo "Running table creation script..." | tee -a "$LOG_FILE"
-"$PYTHON_PATH" /home/aabadmin/db_postgres/one_shot_to_create_all_geom_tables.py >> "$LOG_FILE" 2>&1
+echo "Creating detections hypertable (once)..." | tee -a "$LOG_FILE"
+"$PYTHON_PATH" ./create_detections_hypertable.py >> "$LOG_FILE" 2>&1
 if [ $? -ne 0 ]; then
-    echo "Error: Table creation script failed. Check $LOG_FILE for details."
+    echo "Error: Detections hypertable creation failed. Check $LOG_FILE" | tee -a "$LOG_FILE"
     exit 1
 fi
-echo "Table creation completed successfully." | tee -a "$LOG_FILE"
 
+# --- Process Each Outlet ---
+for outlet in "${OUTLETS[@]}"; do
+    echo "" | tee -a "$LOG_FILE"
+    echo "Processing outlet: $outlet" | tee -a "$LOG_FILE"
+    
+    set_outlet_variables "$outlet"
+    
+    echo "[${outlet}] Running table creation..." | tee -a "$LOG_FILE"
+    "$PYTHON_PATH" ./one_shot_to_create_all_geom_tables.py >> "$LOG_FILE" 2>&1
+    if [ $? -ne 0 ]; then
+        echo "[${outlet}] Error: Table creation failed. Check $LOG_FILE" | tee -a "$LOG_FILE"
+        exit 1
+    fi
+    
+    echo "[${outlet}] Running output tables creation..." | tee -a "$LOG_FILE"
+    "$PYTHON_PATH" ./one_shot_all_output_tables.py >> "$LOG_FILE" 2>&1
+    if [ $? -ne 0 ]; then
+        echo "[${outlet}] Error: Output tables creation failed. Check $LOG_FILE" | tee -a "$LOG_FILE"
+        exit 1
+    fi
+    
+    echo "[${outlet}] Completed successfully" | tee -a "$LOG_FILE"
+done
 
+# --- Run Triggers Creation Once (After All Outlets) ---
+echo "" | tee -a "$LOG_FILE"
+echo "Running triggers creation..." | tee -a "$LOG_FILE"
 
-echo "Running output tables creation script..." | tee -a "$LOG_FILE"
-"$PYTHON_PATH" /home/aabadmin/db_postgres/one_shot_all_output_tables.py >> "$LOG_FILE" 2>&1
+"$PYTHON_PATH" ./one_shot_triggers.py >> "$LOG_FILE" 2>&1
 if [ $? -ne 0 ]; then
-    echo "Error: Output tables creation script failed. Check $LOG_FILE for details."
+    echo "Error: Triggers creation failed. Check $LOG_FILE" | tee -a "$LOG_FILE"
     exit 1
 fi
-echo "Output tables creation completed successfully." | tee -a "$LOG_FILE"
 
-
-
-# echo "Running triggers creation script..." | tee -a "$LOG_FILE"
-# "$PYTHON_PATH" /home/aabadmin/db_postgres/one_shot_triggers.py >> "$LOG_FILE" 2>&1
-# if [ $? -ne 0 ]; then
-#     echo "Error: Triggers creation script failed. Check $LOG_FILE for details."
-#     exit 1
-# fi
-# echo "Triggers creation completed successfully." | tee -a "$LOG_FILE"
-
-# echo "All Python scripts have finished successfully." | tee -a "$LOG_FILE"
 
 # Unset password for security
 unset PGPASSWORD
