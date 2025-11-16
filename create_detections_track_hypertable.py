@@ -23,7 +23,7 @@ def create_detections_track_hypertable(engine):
     -- Create detections_track table if it doesn't exist
     CREATE TABLE IF NOT EXISTS detections_track (
         id SERIAL,
-        channel_id INTEGER,
+        channel_id TEXT,
         frame_id INTEGER,
         xc DOUBLE PRECISION,
         yc DOUBLE PRECISION,
