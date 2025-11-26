@@ -50,10 +50,10 @@ DB_HOST="localhost"
 DB_PORT="5432"
 DB_USER="postgres"
 DB_PASSWORD="anitum"
-DB_NAME="aab_db_demo_diwali_v2"
+DB_NAME="a2b_ooty_2_15112025"
 
 # --- Global Outlet Configuration ---
-OUTLET="th_road"
+OUTLET="ooty_2"
 
 # --- ROI Configuration ---
 # Table ROI Configuration
