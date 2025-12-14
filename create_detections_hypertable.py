@@ -62,6 +62,12 @@ def create_detections_hypertable(engine):
     ON detections (outlet, channel_id, timestamp DESC);
     """
     
+    remove_duplicate_detections = """
+    -- Constraints detections for duplication
+    ALTER TABLE detections 
+    ADD CONSTRAINT unique_detection UNIQUE (timestamp, channel_id, frame_id, class_id, xc, yc, w, h, outlet);
+    """
+
     try:
         with engine.connect() as conn:
             print("🚀 Creating detections hypertable...")
@@ -112,6 +118,25 @@ def create_detections_hypertable(engine):
             conn.commit()
             print("✅ Indexes created successfully.")
             
+
+            # Add UNIQUE constraint to prevent duplicate detections
+            print("🔒 Adding unique constraint to avoid duplicate detections...")
+
+            # Check if constraint already exists
+            constraint_exists = conn.execute(text("""
+                SELECT 1
+                FROM pg_constraint 
+                WHERE conname = 'unique_detection';
+            """)).scalar()
+
+            if not constraint_exists:
+                conn.execute(text(remove_duplicate_detections))
+                conn.commit()
+                print("✅ Unique constraint added successfully.")
+            else:
+                print("ℹ️ Unique constraint already exists.")
+
+
             # Verify the setup
             print("\n📋 Verifying hypertable setup...")
             
